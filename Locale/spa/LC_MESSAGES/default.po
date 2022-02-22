@@ -1,0 +1,3403 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-10-20 10:26-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:56
+msgid "No puede ingresar a la web solicitada"
+msgstr ""
+
+#: Controller/BancosController.php:37;69;94
+msgid "banco invalido"
+msgstr ""
+
+#: Controller/BancosController.php:52;73
+#: Controller/ClientsController.php:52;66
+#: Controller/CobranzasController.php:48;72
+#: Controller/CoeficientesController.php:49;73;142;166
+#: Controller/CoeficientesPropietariosController.php:42;66
+#: Controller/ColaimpresionesController.php:52;75
+#: Controller/ConsorciosController.php:48;71
+#: Controller/CuentasgastosparticularesController.php:51;74
+#: Controller/FacturaproveedorsController.php:48;71
+#: Controller/GastosGeneralesController.php:70;98
+#: Controller/GastosParticularesController.php:60;88
+#: Controller/LiquidationsController.php:84;110
+#: Controller/LiquidationsTypesController.php:48;71
+#: Controller/PagoproveedorsController.php:52;76
+#: Controller/PropietariosController.php:47;71
+#: Controller/ProveedorsController.php:46;69
+#: Controller/ResumenesController.php:52;75
+#: Controller/RubrosController.php:51;74
+#: Controller/SaldosCierresController.php:44;68
+#: Controller/SaldosInicialesController.php:57;81
+#: Controller/UsersController.php:58;81;134;150
+msgid "El dato fue guardado"
+msgstr ""
+
+#: Controller/BancosController.php:55;76
+#: Controller/ClientsController.php:55;69
+#: Controller/CobranzasController.php:51;75
+#: Controller/CoeficientesController.php:52;76;145;169
+#: Controller/CoeficientesPropietariosController.php:45;69
+#: Controller/ColaimpresionesController.php:55;78
+#: Controller/ConsorciosController.php:51;74
+#: Controller/CuentasgastosparticularesController.php:54;77
+#: Controller/FacturaproveedorsController.php:51;74
+#: Controller/GastosGeneralesController.php:73;101
+#: Controller/GastosParticularesController.php:63;91
+#: Controller/LiquidationsController.php:87;113
+#: Controller/LiquidationsTypesController.php:51;74
+#: Controller/PagoproveedorsController.php:55;79
+#: Controller/PropietariosController.php:50;74
+#: Controller/ProveedorsController.php:49;72
+#: Controller/ResumenesController.php:55;78
+#: Controller/RubrosController.php:54;77
+#: Controller/SaldosCierresController.php:47;71
+#: Controller/SaldosInicialesController.php:60;84
+#: Controller/UsersController.php:61;84;137;153
+msgid "El dato no pudo ser guardado, intente nuevamente"
+msgstr ""
+
+#: Controller/BancosController.php:98
+#: Controller/ClientsController.php:84
+#: Controller/CobranzasController.php:100
+#: Controller/CoeficientesController.php:101;194
+#: Controller/CoeficientesPropietariosController.php:94
+#: Controller/ColaimpresionesController.php:102
+#: Controller/ConsorciosController.php:98
+#: Controller/CuentasgastosparticularesController.php:101
+#: Controller/FacturaproveedorsController.php:98
+#: Controller/GastosGeneralesController.php:129
+#: Controller/GastosParticularesController.php:119
+#: Controller/LiquidationsController.php:138
+#: Controller/LiquidationsTypesController.php:98
+#: Controller/PagoproveedorsController.php:104
+#: Controller/PropietariosController.php:99
+#: Controller/ProveedorsController.php:96
+#: Controller/ResumenesController.php:102
+#: Controller/RubrosController.php:101
+#: Controller/SaldosCierresController.php:96
+#: Controller/SaldosInicialesController.php:109
+#: Controller/UsersController.php:108;170
+msgid "El dato fue eliminado"
+msgstr ""
+
+#: Controller/BancosController.php:100
+#: Controller/ClientsController.php:86
+#: Controller/CobranzasController.php:102
+#: Controller/CoeficientesController.php:103;196
+#: Controller/CoeficientesPropietariosController.php:96
+#: Controller/ColaimpresionesController.php:104
+#: Controller/ConsorciosController.php:100
+#: Controller/CuentasgastosparticularesController.php:103
+#: Controller/FacturaproveedorsController.php:100
+#: Controller/GastosGeneralesController.php:131
+#: Controller/GastosParticularesController.php:121
+#: Controller/LiquidationsController.php:140
+#: Controller/LiquidationsTypesController.php:100
+#: Controller/PagoproveedorsController.php:106
+#: Controller/PropietariosController.php:101
+#: Controller/ProveedorsController.php:98
+#: Controller/ResumenesController.php:104
+#: Controller/RubrosController.php:103
+#: Controller/SaldosCierresController.php:98
+#: Controller/SaldosInicialesController.php:111
+#: Controller/UsersController.php:110;172
+msgid "El dato no pudo ser eliminado, intente nuevamente"
+msgstr ""
+
+#: Controller/ClientsController.php:27;42;62;80
+msgid "Invalid client"
+msgstr ""
+
+#: Controller/CobranzasController.php:33
+msgid "cobranza inv醠ida"
+msgstr ""
+
+#: Controller/CobranzasController.php:68;96
+msgid "cobranza inv谩lido"
+msgstr ""
+
+#: Controller/CoeficientesController.php:34;69;97;127;162;190
+msgid "Invalid coeficiente"
+msgstr ""
+
+#: Controller/CoeficientesPropietariosController.php:27;62;90
+msgid "Invalid coeficientes propietario"
+msgstr ""
+
+#: Controller/ColaimpresionesController.php:37;71;98
+msgid "Invalid colaimpresione"
+msgstr ""
+
+#: Controller/ConsorciosController.php:33;67;94
+msgid "Invalid consorcio"
+msgstr ""
+
+#: Controller/CuentasgastosparticularesController.php:36;70;97
+msgid "Invalid cuentasgastosparticulare"
+msgstr ""
+
+#: Controller/FacturaproveedorsController.php:33;67;94
+msgid "facturaproveedor invalido"
+msgstr ""
+
+#: Controller/GastosGeneralesController.php:39;94;125
+msgid "Invalid gastos generale"
+msgstr ""
+
+#: Controller/GastosGeneralesController.php:53
+#: Controller/GastosParticularesController.php:48
+#: Controller/LiquidationsController.php:63
+msgid "Liquidaci髇 inv醠ida"
+msgstr ""
+
+#: Controller/GastosParticularesController.php:34;84;115
+msgid "Invalid gastos particulare"
+msgstr ""
+
+#: Controller/LiquidationsController.php:37;106;134;148
+msgid "Invalid liquidation"
+msgstr ""
+
+#: Controller/LiquidationsController.php:41
+msgid "La liquidaci髇 no fue cerrada o se encuentra abierta"
+msgstr ""
+
+#: Controller/LiquidationsController.php:66
+msgid "Tipo de liquidacion inv醠ido"
+msgstr ""
+
+#: Controller/LiquidationsController.php:157
+msgid "Los controles se realizaron correctamente"
+msgstr ""
+
+#: Controller/LiquidationsController.php:183
+msgid "Se termino de cerrar la liquidaci髇"
+msgstr ""
+
+#: Controller/LiquidationsTypesController.php:33;67;94
+msgid "Invalid liquidations type"
+msgstr ""
+
+#: Controller/PagoproveedorsController.php:37;72;100
+msgid "pagoproveedor invalido"
+msgstr ""
+
+#: Controller/PropietariosController.php:32;67;95
+msgid "Invalid propietario"
+msgstr ""
+
+#: Controller/ProveedorsController.php:31;65;92
+msgid "proveedor invalido"
+msgstr ""
+
+#: Controller/ResumenesController.php:37;71;98
+msgid "resumene invalido"
+msgstr ""
+
+#: Controller/RubrosController.php:36;70;97
+msgid "Invalid rubro"
+msgstr ""
+
+#: Controller/SaldosCierresController.php:29;64;92
+msgid "Invalid saldos cierre"
+msgstr ""
+
+#: Controller/SaldosInicialesController.php:34;77;105
+msgid "Invalid saldos iniciale"
+msgstr ""
+
+#: Controller/UsersController.php:43;77;104;124;146;166
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:182
+msgid "Usuario o contrase馻 inv醠idos"
+msgstr ""
+
+#: Controller/UsersController.php:198
+msgid "Usuario o contrase帽a inv谩lidos"
+msgstr ""
+
+#: Controller/UsersController.php:220
+msgid "El cliente se encuentra deshabilitado, cont谩ctese con su administrador"
+msgstr ""
+
+#: Controller/UsersController.php:224
+msgid "Su usuario se encuentra deshabilitado, cont谩ctese con su administrador"
+msgstr ""
+
+#: Model/Coeficiente.php:156
+msgid "Existen gastos relacionados, no se puede eliminar el coeficiente"
+msgstr ""
+
+#: Model/GastosParticulare.php:131
+msgid "Seleccione propietario (si es gasto particular) o coeficiente (si es gasto particular prorrateado), no ambos simult醤eamente"
+msgstr ""
+
+#: Model/LiquidationsType.php:118
+msgid "Existen saldos iniciales asociados al tipo de liquidaci髇"
+msgstr ""
+
+#: Model/SaldosIniciale.php:111;validation for field propietario_id
+msgid "Ya existe el saldo inicial para el tipo de liquidacion y propietario"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:51
+msgid "Hidef Environment"
+msgstr ""
+
+#: View/Bancos/add.ctp:4
+msgid "Agregar Banco"
+msgstr ""
+
+#: View/Bancos/add.ctp:6
+#: View/Bancos/edit.ctp:7
+msgid "code"
+msgstr ""
+
+#: View/Bancos/add.ctp:7
+#: View/Bancos/edit.ctp:8
+#: View/Cuentasgastosparticulares/add.ctp:7
+#: View/Cuentasgastosparticulares/edit.ctp:8
+#: View/Liquidations/add2.ctp:9
+#: View/Liquidations/edit.ctp:9
+#: View/LiquidationsTypes/add.ctp:7
+#: View/Rubros/add.ctp:7
+#: View/Rubros/edit.ctp:8
+#: View/Users/add.ctp:7
+#: View/Users/edit.ctp:8
+#: View/Users/panel_add.ctp:4
+#: View/Users/panel_edit.ctp:4
+msgid "name"
+msgstr ""
+
+#: View/Bancos/add.ctp:8
+#: View/Bancos/edit.ctp:9
+msgid "address"
+msgstr ""
+
+#: View/Bancos/add.ctp:9
+#: View/Bancos/edit.ctp:10
+msgid "city"
+msgstr ""
+
+#: View/Bancos/add.ctp:12
+#: View/Bancos/edit.ctp:13
+#: View/Clients/panel_add.ctp:15
+#: View/Clients/panel_edit.ctp:17
+#: View/Cobranzas/add.ctp:12
+#: View/Cobranzas/edit.ctp:13
+#: View/Coeficientes/add.ctp:11
+#: View/Coeficientes/edit.ctp:12
+#: View/CoeficientesPropietarios/add.ctp:11
+#: View/CoeficientesPropietarios/edit.ctp:12
+#: View/CoeficientesPropietarios/old/add.ctp:11
+#: View/CoeficientesPropietarios/old/edit.ctp:12
+#: View/Colaimpresiones/add.ctp:14
+#: View/Colaimpresiones/edit.ctp:15
+#: View/Consorcios/add.ctp:15
+#: View/Consorcios/edit.ctp:17
+#: View/Consorcios/panel_add.ctp:12
+#: View/Consorcios/panel_edit.ctp:13
+#: View/Cuentasgastosparticulares/add.ctp:10
+#: View/Cuentasgastosparticulares/edit.ctp:11
+#: View/Facturaproveedors/add.ctp:12
+#: View/Facturaproveedors/edit.ctp:13
+#: View/GastosGenerales/add2.ctp:14
+#: View/GastosGenerales/edit.ctp:15
+#: View/GastosParticulares/add2.ctp:16
+#: View/GastosParticulares/edit.ctp:16
+#: View/Liquidations/add2.ctp:16
+#: View/Liquidations/edit.ctp:16
+#: View/LiquidationsTypes/add.ctp:11
+#: View/LiquidationsTypes/edit.ctp:12
+#: View/Pagoproveedors/add.ctp:13
+#: View/Pagoproveedors/edit.ctp:14
+#: View/Propietarios/add.ctp:25
+#: View/Propietarios/edit.ctp:26
+#: View/Proveedors/add.ctp:14
+#: View/Proveedors/edit.ctp:15
+#: View/Resumenes/add.ctp:10
+#: View/Resumenes/edit.ctp:11
+#: View/Rubros/add.ctp:10
+#: View/Rubros/edit.ctp:11
+#: View/SaldosCierres/add.ctp:13
+#: View/SaldosCierres/edit.ctp:14
+#: View/SaldosIniciales/add.ctp:12
+#: View/SaldosIniciales/edit.ctp:13
+#: View/Users/add.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/panel_add.ctp:5
+#: View/Users/panel_edit.ctp:5
+msgid "Guardar"
+msgstr ""
+
+#: View/Bancos/add.ctp:14
+#: View/Bancos/edit.ctp:15
+#: View/Clients/panel_add.ctp:16
+#: View/Clients/panel_edit.ctp:19
+#: View/Cobranzas/add.ctp:14
+#: View/Cobranzas/edit.ctp:15
+#: View/Coeficientes/add.ctp:13
+#: View/Coeficientes/edit.ctp:14
+#: View/CoeficientesPropietarios/add.ctp:13
+#: View/CoeficientesPropietarios/edit.ctp:14
+#: View/CoeficientesPropietarios/old/add.ctp:13
+#: View/CoeficientesPropietarios/old/edit.ctp:14
+#: View/Colaimpresiones/add.ctp:16
+#: View/Colaimpresiones/edit.ctp:17
+#: View/Consorcios/add.ctp:17
+#: View/Consorcios/edit.ctp:19
+#: View/Consorcios/panel_add.ctp:14
+#: View/Consorcios/panel_edit.ctp:15
+#: View/Cuentasgastosparticulares/add.ctp:12
+#: View/Cuentasgastosparticulares/edit.ctp:13
+#: View/Facturaproveedors/add.ctp:14
+#: View/Facturaproveedors/edit.ctp:15
+#: View/GastosGenerales/add.ctp:11
+#: View/GastosGenerales/add2.ctp:16
+#: View/GastosGenerales/edit.ctp:17
+#: View/GastosParticulares/add.ctp:11
+#: View/GastosParticulares/add2.ctp:18
+#: View/GastosParticulares/edit.ctp:18
+#: View/Liquidations/add.ctp:12
+#: View/Liquidations/add2.ctp:18
+#: View/Liquidations/edit.ctp:18
+#: View/LiquidationsTypes/add.ctp:13
+#: View/LiquidationsTypes/edit.ctp:14
+#: View/Pagoproveedors/add.ctp:15
+#: View/Pagoproveedors/edit.ctp:16
+#: View/Propietarios/add.ctp:27
+#: View/Propietarios/edit.ctp:28
+#: View/Proveedors/add.ctp:16
+#: View/Proveedors/edit.ctp:17
+#: View/Resumenes/add.ctp:12
+#: View/Resumenes/edit.ctp:13
+#: View/Rubros/add.ctp:12
+#: View/Rubros/edit.ctp:13
+#: View/SaldosCierres/add.ctp:15
+#: View/SaldosCierres/edit.ctp:16
+#: View/SaldosIniciales/add.ctp:14
+#: View/SaldosIniciales/edit.ctp:15
+#: View/Users/add.ctp:16
+#: View/Users/edit.ctp:17
+#: View/Users/panel_add.ctp:6
+#: View/Users/panel_edit.ctp:6
+msgid "Cancelar"
+msgstr ""
+
+#: View/Bancos/add.ctp:14
+#: View/Bancos/edit.ctp:15
+#: View/Clients/panel_add.ctp:16
+#: View/Clients/panel_edit.ctp:19
+#: View/Cobranzas/add.ctp:14
+#: View/Cobranzas/edit.ctp:15
+#: View/Coeficientes/add.ctp:13
+#: View/Coeficientes/edit.ctp:14
+#: View/CoeficientesPropietarios/add.ctp:13
+#: View/CoeficientesPropietarios/edit.ctp:14
+#: View/CoeficientesPropietarios/old/add.ctp:13
+#: View/CoeficientesPropietarios/old/edit.ctp:14
+#: View/Colaimpresiones/add.ctp:16
+#: View/Colaimpresiones/edit.ctp:17
+#: View/Consorcios/add.ctp:17
+#: View/Consorcios/edit.ctp:19
+#: View/Consorcios/panel_add.ctp:14
+#: View/Consorcios/panel_edit.ctp:15
+#: View/Cuentasgastosparticulares/add.ctp:12
+#: View/Cuentasgastosparticulares/edit.ctp:13
+#: View/Facturaproveedors/add.ctp:14
+#: View/Facturaproveedors/edit.ctp:15
+#: View/GastosGenerales/add.ctp:11
+#: View/GastosGenerales/add2.ctp:16
+#: View/GastosGenerales/edit.ctp:17
+#: View/GastosParticulares/add.ctp:11
+#: View/GastosParticulares/add2.ctp:18
+#: View/GastosParticulares/edit.ctp:18
+#: View/Liquidations/add.ctp:12
+#: View/Liquidations/add2.ctp:18
+#: View/Liquidations/edit.ctp:18
+#: View/LiquidationsTypes/add.ctp:13
+#: View/LiquidationsTypes/edit.ctp:14
+#: View/Pagoproveedors/add.ctp:15
+#: View/Pagoproveedors/edit.ctp:16
+#: View/Propietarios/add.ctp:27
+#: View/Propietarios/edit.ctp:28
+#: View/Proveedors/add.ctp:16
+#: View/Proveedors/edit.ctp:17
+#: View/Resumenes/add.ctp:12
+#: View/Resumenes/edit.ctp:13
+#: View/Rubros/add.ctp:12
+#: View/Rubros/edit.ctp:13
+#: View/SaldosCierres/add.ctp:15
+#: View/SaldosCierres/edit.ctp:16
+#: View/SaldosIniciales/add.ctp:14
+#: View/SaldosIniciales/edit.ctp:15
+#: View/Users/add.ctp:16
+#: View/Users/edit.ctp:17
+#: View/Users/panel_add.ctp:6
+#: View/Users/panel_edit.ctp:6
+msgid "Desea cancelar?"
+msgstr ""
+
+#: View/Bancos/edit.ctp:4
+msgid "Editar Banco"
+msgstr ""
+
+#: View/Bancos/edit.ctp:6
+#: View/Clients/panel_edit.ctp:5
+#: View/Coeficientes/edit.ctp:6
+#: View/CoeficientesPropietarios/edit.ctp:6
+#: View/CoeficientesPropietarios/old/edit.ctp:6
+#: View/Colaimpresiones/edit.ctp:6
+#: View/Consorcios/edit.ctp:6
+#: View/Consorcios/panel_edit.ctp:6
+#: View/Cuentasgastosparticulares/edit.ctp:6
+#: View/Facturaproveedors/edit.ctp:6
+#: View/GastosGenerales/edit.ctp:6
+#: View/GastosParticulares/edit.ctp:6
+#: View/Liquidations/edit.ctp:6
+#: View/LiquidationsTypes/edit.ctp:6
+#: View/Pagoproveedors/edit.ctp:6
+#: View/Propietarios/edit.ctp:6
+#: View/Proveedors/edit.ctp:6
+#: View/Resumenes/edit.ctp:6
+#: View/Rubros/edit.ctp:6
+#: View/SaldosCierres/edit.ctp:6
+#: View/SaldosIniciales/edit.ctp:6
+#: View/Users/edit.ctp:6
+#: View/Users/panel_edit.ctp:4
+msgid "id"
+msgstr ""
+
+#: View/Bancos/index.ctp:3
+#: View/Layouts/backendcli.ctp:48;49
+msgid "Bancos"
+msgstr ""
+
+#: View/Bancos/index.ctp:9
+#: View/Bancos/view.ctp:9
+#: View/Clients/panel_view.ctp:9
+#: View/Coeficientes/view.ctp:151
+#: View/Consorcios/index.ctp:9
+#: View/Consorcios/panel_view.ctp:109
+#: View/Consorcios/view.ctp:14;186
+#: View/ConsorciosCoeficientes/view.ctp:43
+#: View/Propietarios/index.ctp:10
+#: View/Propietarios/view.ctp:14
+msgid "Code"
+msgstr ""
+
+#: View/Bancos/index.ctp:10
+#: View/Bancos/view.ctp:14
+#: View/Clients/index.ctp:9
+#: View/Clients/panel_view.ctp:14;90;127;164;207
+#: View/Clients/view.ctp:8;94
+#: View/Coeficientes/index.ctp:10
+#: View/Coeficientes/view.ctp:14;152
+#: View/Consorcios/index.ctp:10
+#: View/Consorcios/panel_view.ctp:14;65;110;170;205;241
+#: View/Consorcios/view.ctp:19;69;104;142;187;247
+#: View/ConsorciosCoeficientes/view.ctp:44
+#: View/Cuentasgastosparticulares/index.ctp:10
+#: View/Cuentasgastosparticulares/view.ctp:14
+#: View/Liquidations/index.ctp:11
+#: View/Liquidations/panel_index.ctp:11
+#: View/Liquidations/view.ctp:19
+#: View/LiquidationsTypes/index.ctp:9
+#: View/LiquidationsTypes/view.ctp:14;57
+#: View/Propietarios/index.ctp:11
+#: View/Propietarios/view.ctp:19;208
+#: View/Proveedors/view.ctp:14
+#: View/Rubros/index.ctp:10
+#: View/Rubros/view.ctp:14
+#: View/Users/index.ctp:9
+#: View/Users/panel_index.ctp:10
+#: View/Users/panel_view.ctp:14
+#: View/Users/view.ctp:14
+msgid "Name"
+msgstr ""
+
+#: View/Bancos/index.ctp:11
+#: View/Bancos/view.ctp:19
+#: View/Clients/panel_view.ctp:29;165
+#: View/Coeficientes/view.ctp:155
+#: View/Consorcios/panel_view.ctp:113
+#: View/Consorcios/view.ctp:190
+#: View/ConsorciosCoeficientes/view.ctp:47
+#: View/Propietarios/index.ctp:13
+#: View/Propietarios/view.ctp:34
+#: View/Proveedors/view.ctp:19
+msgid "Address"
+msgstr ""
+
+#: View/Bancos/index.ctp:12
+#: View/Bancos/view.ctp:24
+#: View/Clients/index.ctp:13
+#: View/Clients/panel_view.ctp:34;167
+#: View/Clients/view.ctp:12
+#: View/Coeficientes/view.ctp:157
+#: View/Consorcios/panel_view.ctp:115
+#: View/Consorcios/view.ctp:192
+#: View/ConsorciosCoeficientes/view.ctp:49
+#: View/Propietarios/index.ctp:15
+#: View/Propietarios/view.ctp:44
+#: View/Proveedors/view.ctp:29
+msgid "City"
+msgstr ""
+
+#: View/Bancos/index.ctp:13
+#: View/Clients/index.ctp:16
+#: View/Clients/panel_index.ctp:18
+#: View/Clients/view.ctp:98
+#: View/Cobranzas/index.ctp:13
+#: View/Coeficientes/index.ctp:12
+#: View/CoeficientesPropietarios/index.ctp:12
+#: View/CoeficientesPropietarios/old/index.ctp:12
+#: View/Colaimpresiones/index.ctp:15
+#: View/Consorcios/index.ctp:12
+#: View/Consorcios/panel_index.ctp:13
+#: View/Cuentasgastosparticulares/index.ctp:11
+#: View/Facturaproveedors/index.ctp:13
+#: View/GastosGenerales/index.ctp:16
+#: View/GastosParticulares/index.ctp:16
+#: View/Liquidations/index.ctp:16
+#: View/Liquidations/panel_index.ctp:16
+#: View/LiquidationsTypes/index.ctp:11
+#: View/Pagoproveedors/index.ctp:14
+#: View/Propietarios/index.ctp:21
+#: View/Proveedors/index.ctp:15
+#: View/Resumenes/index.ctp:11
+#: View/Rubros/index.ctp:11
+#: View/SaldosCierres/index.ctp:14
+#: View/SaldosIniciales/index.ctp:13
+#: View/Users/index.ctp:13
+#: View/Users/panel_index.ctp:15
+msgid "Acciones"
+msgstr ""
+
+#: View/Bancos/index.ctp:39
+#: View/Clients/index.ctp:48
+#: View/Clients/panel_index.ctp:108
+#: View/Clients/view.ctp:140
+#: View/Cobranzas/index.ctp:49
+#: View/Coeficientes/index.ctp:33
+#: View/CoeficientesPropietarios/index.ctp:34
+#: View/CoeficientesPropietarios/old/index.ctp:36
+#: View/Colaimpresiones/index.ctp:44
+#: View/Consorcios/index.ctp:54
+#: View/Consorcios/panel_index.ctp:69
+#: View/Cuentasgastosparticulares/index.ctp:37
+#: View/Facturaproveedors/index.ctp:38
+#: View/GastosGenerales/index.ctp:61
+#: View/GastosParticulares/index.ctp:56
+#: View/Liquidations/index.ctp:68
+#: View/Liquidations/panel_index.ctp:68
+#: View/LiquidationsTypes/index.ctp:31
+#: View/Pagoproveedors/index.ctp:40
+#: View/Propietarios/index.ctp:113
+#: View/Proveedors/index.ctp:45
+#: View/Resumenes/index.ctp:32
+#: View/Rubros/index.ctp:32
+#: View/SaldosCierres/index.ctp:58
+#: View/SaldosIniciales/index.ctp:37
+#: View/Users/index.ctp:37
+#: View/Users/panel_index.ctp:74
+msgid "Ver"
+msgstr ""
+
+#: View/Bancos/index.ctp:40
+#: View/Clients/panel_index.ctp:109
+#: View/Clients/view.ctp:141
+#: View/Cobranzas/index.ctp:50
+#: View/Coeficientes/index.ctp:34
+#: View/CoeficientesPropietarios/index.ctp:35
+#: View/CoeficientesPropietarios/old/index.ctp:37
+#: View/Colaimpresiones/index.ctp:45
+#: View/Consorcios/index.ctp:55
+#: View/Consorcios/panel_index.ctp:70
+#: View/Cuentasgastosparticulares/index.ctp:38
+#: View/Facturaproveedors/index.ctp:39
+#: View/GastosGenerales/index.ctp:62
+#: View/GastosParticulares/index.ctp:57
+#: View/LiquidationsTypes/index.ctp:32
+#: View/Pagoproveedors/index.ctp:41
+#: View/Propietarios/index.ctp:114
+#: View/Proveedors/index.ctp:46
+#: View/Resumenes/index.ctp:33
+#: View/Rubros/index.ctp:33
+#: View/SaldosCierres/index.ctp:59
+#: View/SaldosIniciales/index.ctp:38
+#: View/Users/index.ctp:38
+#: View/Users/panel_index.ctp:75
+msgid "Editar"
+msgstr ""
+
+#: View/Bancos/index.ctp:41
+#: View/Clients/panel_index.ctp:110
+#: View/Clients/view.ctp:142
+#: View/Cobranzas/index.ctp:51
+#: View/Coeficientes/index.ctp:35
+#: View/CoeficientesPropietarios/index.ctp:36
+#: View/CoeficientesPropietarios/old/index.ctp:38
+#: View/Colaimpresiones/index.ctp:46
+#: View/Consorcios/index.ctp:56
+#: View/Consorcios/panel_index.ctp:71
+#: View/Cuentasgastosparticulares/index.ctp:39
+#: View/Facturaproveedors/index.ctp:40
+#: View/GastosGenerales/index.ctp:63
+#: View/GastosParticulares/index.ctp:58
+#: View/Liquidations/index.ctp:73;76
+#: View/Liquidations/panel_index.ctp:73;76
+#: View/LiquidationsTypes/index.ctp:33
+#: View/Pagoproveedors/index.ctp:42
+#: View/Propietarios/index.ctp:115
+#: View/Proveedors/index.ctp:47
+#: View/Resumenes/index.ctp:34
+#: View/Rubros/index.ctp:34
+#: View/SaldosCierres/index.ctp:60
+#: View/SaldosIniciales/index.ctp:39
+#: View/Users/index.ctp:39
+#: View/Users/panel_index.ctp:76
+msgid "Eliminar"
+msgstr ""
+
+#: View/Bancos/index.ctp:41
+#: View/Cobranzas/index.ctp:51
+#: View/Facturaproveedors/index.ctp:40
+#: View/Pagoproveedors/index.ctp:42
+#: View/Resumenes/index.ctp:34
+#: View/SaldosCierres/index.ctp:60
+msgid "Desea eliminar el dato # %s?"
+msgstr ""
+
+#: View/Bancos/view.ctp:2
+msgid "Banco"
+msgstr ""
+
+#: View/Bancos/view.ctp:4
+#: View/Clients/panel_view.ctp:4;88;125;162;205
+#: View/Cobranzas/view.ctp:4
+#: View/Coeficientes/view.ctp:4;53;100;149
+#: View/CoeficientesPropietarios/view.ctp:4
+#: View/CoeficientesPropietarios/old/view.ctp:4
+#: View/Colaimpresiones/view.ctp:4
+#: View/Consorcios/panel_view.ctp:4;62;107;168;203;240
+#: View/Consorcios/view.ctp:4;67;102;139;184;245
+#: View/ConsorciosCoeficientes/view.ctp:4;41
+#: View/Cuentasgastosparticulares/view.ctp:4;49
+#: View/Facturaproveedors/view.ctp:4;59
+#: View/GastosGenerales/view.ctp:4
+#: View/GastosParticulares/view.ctp:4
+#: View/Liquidations/prorrateo.ctp:6
+#: View/Liquidations/view.ctp:4;80;127;176
+#: View/LiquidationsTypes/view.ctp:4;54
+#: View/Pagoproveedors/view.ctp:4
+#: View/Propietarios/view.ctp:4;118;167;206
+#: View/Proveedors/view.ctp:4;71;118
+#: View/Resumenes/view.ctp:4
+#: View/Rubros/view.ctp:4;49
+#: View/SaldosCierres/view.ctp:4
+#: View/SaldosIniciales/view.ctp:4
+#: View/Users/panel_view.ctp:4
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Bancos/view.ctp:29
+#: View/Clients/panel_view.ctp:54;92;129;169;212
+#: View/Cobranzas/view.ctp:24
+#: View/Coeficientes/view.ctp:24;62;110;165
+#: View/CoeficientesPropietarios/view.ctp:24
+#: View/CoeficientesPropietarios/old/view.ctp:24
+#: View/Consorcios/panel_view.ctp:24;70;123;171;207;243
+#: View/Consorcios/view.ctp:29;71;106;147;200;248
+#: View/ConsorciosCoeficientes/view.ctp:56
+#: View/Cuentasgastosparticulares/view.ctp:19;59
+#: View/Facturaproveedors/view.ctp:29;65
+#: View/GastosGenerales/view.ctp:49
+#: View/GastosParticulares/view.ctp:54
+#: View/Liquidations/view.ctp:44;89;137;181
+#: View/LiquidationsTypes/view.ctp:24;62
+#: View/Pagoproveedors/view.ctp:34
+#: View/Propietarios/view.ctp:84;128;172;210
+#: View/Proveedors/view.ctp:39;80;128
+#: View/Resumenes/view.ctp:19
+#: View/Rubros/view.ctp:19;58
+#: View/SaldosCierres/view.ctp:34
+#: View/SaldosIniciales/view.ctp:29
+#: View/Users/panel_view.ctp:39
+#: View/Users/view.ctp:39
+msgid "Created"
+msgstr ""
+
+#: View/Bancos/view.ctp:34
+#: View/Clients/panel_view.ctp:59;93;130;170;213
+#: View/Cobranzas/view.ctp:29
+#: View/Coeficientes/view.ctp:63;111;166
+#: View/CoeficientesPropietarios/view.ctp:29
+#: View/CoeficientesPropietarios/old/view.ctp:29
+#: View/Consorcios/panel_view.ctp:29;71;124;172;208
+#: View/Consorcios/view.ctp:34;107;148;201;249
+#: View/ConsorciosCoeficientes/view.ctp:57
+#: View/Cuentasgastosparticulares/view.ctp:24;60
+#: View/Facturaproveedors/view.ctp:34;66
+#: View/GastosGenerales/view.ctp:54
+#: View/GastosParticulares/view.ctp:59
+#: View/Liquidations/view.ctp:49;90;138;182
+#: View/LiquidationsTypes/view.ctp:29;63
+#: View/Pagoproveedors/view.ctp:39
+#: View/Propietarios/view.ctp:89;129;173
+#: View/Proveedors/view.ctp:44;81;129
+#: View/Resumenes/view.ctp:24
+#: View/Rubros/view.ctp:24;59
+#: View/SaldosCierres/view.ctp:39
+#: View/SaldosIniciales/view.ctp:34
+#: View/Users/panel_view.ctp:44
+#: View/Users/view.ctp:44
+msgid "Modified"
+msgstr ""
+
+#: View/Bancos/view.ctp:42
+#: View/Clients/panel_view.ctp:67;94;131;171;214
+#: View/Cobranzas/view.ctp:37
+#: View/Coeficientes/view.ctp:32;64;112;167
+#: View/CoeficientesPropietarios/view.ctp:37
+#: View/CoeficientesPropietarios/old/view.ctp:37
+#: View/Colaimpresiones/view.ctp:42
+#: View/Consorcios/panel_view.ctp:37;72;125;173;209;244
+#: View/Consorcios/view.ctp:42;72;108;149;202;250
+#: View/ConsorciosCoeficientes/add.ctp:14
+#: View/ConsorciosCoeficientes/edit.ctp:15
+#: View/ConsorciosCoeficientes/index.ctp:9;46
+#: View/ConsorciosCoeficientes/view.ctp:22;58
+#: View/Cuentasgastosparticulares/view.ctp:32;61
+#: View/Facturaproveedors/view.ctp:42;67
+#: View/GastosGenerales/view.ctp:62
+#: View/GastosParticulares/view.ctp:67
+#: View/Liquidations/view.ctp:57;91;139;183
+#: View/LiquidationsTypes/view.ctp:37;64
+#: View/Pagoproveedors/view.ctp:47
+#: View/Propietarios/view.ctp:97;130;174;211
+#: View/Proveedors/view.ctp:52;82;130
+#: View/Resumenes/view.ctp:32
+#: View/Rubros/view.ctp:32;60
+#: View/SaldosCierres/view.ctp:47
+#: View/SaldosIniciales/view.ctp:42
+#: View/Users/panel_view.ctp:52
+#: View/Users/view.ctp:52
+msgid "Actions"
+msgstr ""
+
+#: View/Bancos/view.ctp:44
+msgid "Edit Banco"
+msgstr ""
+
+#: View/Bancos/view.ctp:45
+msgid "Delete Banco"
+msgstr ""
+
+#: View/Bancos/view.ctp:45
+#: View/Clients/panel_view.ctp:70;107;144;187;230
+#: View/Cobranzas/view.ctp:40
+#: View/Coeficientes/view.ctp:35;82;131;192
+#: View/CoeficientesPropietarios/view.ctp:40
+#: View/CoeficientesPropietarios/old/view.ctp:40
+#: View/Colaimpresiones/view.ctp:45
+#: View/Consorcios/panel_view.ctp:40;89;150;185;222;255
+#: View/Consorcios/view.ctp:45;84;121;166;227;262
+#: View/ConsorciosCoeficientes/edit.ctp:18
+#: View/ConsorciosCoeficientes/index.ctp:25
+#: View/ConsorciosCoeficientes/view.ctp:25;82
+#: View/Cuentasgastosparticulares/view.ctp:35;80
+#: View/Facturaproveedors/view.ctp:45;82
+#: View/GastosGenerales/view.ctp:65
+#: View/GastosParticulares/view.ctp:70
+#: View/Liquidations/view.ctp:60;109;158;197
+#: View/LiquidationsTypes/view.ctp:40;81
+#: View/Pagoproveedors/view.ctp:50
+#: View/Propietarios/view.ctp:100;149;188;223
+#: View/Proveedors/view.ctp:55;100;149
+#: View/Resumenes/view.ctp:35
+#: View/Rubros/view.ctp:35;78
+#: View/SaldosCierres/view.ctp:50
+#: View/SaldosIniciales/view.ctp:45
+#: View/Users/panel_view.ctp:55
+#: View/Users/view.ctp:55
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Bancos/view.ctp:46
+msgid "List Bancos"
+msgstr ""
+
+#: View/Bancos/view.ctp:47
+msgid "New Banco"
+msgstr ""
+
+#: View/Clients/index.ctp:3
+#: View/Clients/panel_index.ctp:3
+#: View/Clients/view.ctp:3
+msgid "Clients"
+msgstr ""
+
+#: View/Clients/index.ctp:10
+#: View/Clients/panel_add.ctp:7
+#: View/Clients/panel_index.ctp:11
+#: View/Clients/panel_view.ctp:19
+#: View/Clients/view.ctp:9
+msgid "Razon Social"
+msgstr ""
+
+#: View/Clients/index.ctp:11
+#: View/Clients/panel_view.ctp:24;166
+#: View/Clients/view.ctp:10
+#: View/Proveedors/view.ctp:24
+msgid "Cuit"
+msgstr ""
+
+#: View/Clients/index.ctp:12
+#: View/Clients/view.ctp:11
+#: View/Consorcios/add.ctp:9
+#: View/Consorcios/edit.ctp:11
+#: View/Propietarios/add.ctp:10
+#: View/Propietarios/edit.ctp:11
+#: View/Proveedors/add.ctp:8
+#: View/Proveedors/edit.ctp:9
+#: View/Proveedors/index.ctp:10
+msgid "Direcci贸n"
+msgstr ""
+
+#: View/Clients/index.ctp:14
+#: View/Clients/panel_view.ctp:39;168
+#: View/Clients/view.ctp:13
+#: View/Coeficientes/view.ctp:159
+#: View/Consorcios/panel_view.ctp:117
+#: View/Consorcios/view.ctp:194
+#: View/ConsorciosCoeficientes/view.ctp:51
+#: View/Propietarios/index.ctp:17
+#: View/Propietarios/view.ctp:54
+#: View/Proveedors/view.ctp:34
+msgid "Telephone"
+msgstr ""
+
+#: View/Clients/index.ctp:15
+#: View/Clients/panel_add.ctp:12
+#: View/Clients/panel_edit.ctp:13
+#: View/Clients/panel_index.ctp:16
+#: View/Clients/panel_view.ctp:44
+#: View/Clients/view.ctp:14
+#: View/Coeficientes/view.ctp:154
+#: View/Consorcios/panel_view.ctp:112
+#: View/Consorcios/view.ctp:189
+#: View/ConsorciosCoeficientes/view.ctp:46
+#: View/Propietarios/add.ctp:9
+#: View/Propietarios/edit.ctp:10
+#: View/Propietarios/index.ctp:12
+#: View/Propietarios/view.ctp:29
+#: View/Proveedors/add.ctp:11
+#: View/Proveedors/edit.ctp:12
+#: View/Proveedors/index.ctp:14
+msgid "Email"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:3
+#: View/Clients/panel_edit.ctp:3
+msgid "Agregar Cliente"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:5
+#: View/Clients/panel_index.ctp:9
+msgid "Codigo"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:6
+#: View/Clients/panel_edit.ctp:7
+#: View/Clients/panel_index.ctp:10
+#: View/Coeficientes/add.ctp:7
+#: View/Coeficientes/edit.ctp:8
+#: View/Consorcios/add.ctp:7
+#: View/Consorcios/edit.ctp:9
+#: View/Consorcios/panel_add.ctp:8
+#: View/Consorcios/panel_edit.ctp:8
+#: View/Consorcios/panel_index.ctp:11
+#: View/LiquidationsTypes/edit.ctp:8
+#: View/Propietarios/add.ctp:8
+#: View/Propietarios/edit.ctp:9
+#: View/Proveedors/add.ctp:6
+#: View/Proveedors/edit.ctp:7
+#: View/Proveedors/index.ctp:9
+msgid "Nombre"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:8
+#: View/Clients/panel_edit.ctp:9
+#: View/Clients/panel_index.ctp:12
+#: View/Consorcios/add.ctp:8
+#: View/Consorcios/edit.ctp:10
+#: View/Proveedors/add.ctp:7
+#: View/Proveedors/edit.ctp:8
+#: View/Proveedors/index.ctp:11
+msgid "CUIT"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:9
+#: View/Clients/panel_index.ctp:13
+msgid "Direccion"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:10
+#: View/Clients/panel_edit.ctp:11
+#: View/Clients/panel_index.ctp:14
+#: View/Consorcios/add.ctp:10
+#: View/Consorcios/edit.ctp:12
+#: View/Propietarios/add.ctp:12
+#: View/Propietarios/edit.ctp:13
+#: View/Proveedors/add.ctp:9
+#: View/Proveedors/edit.ctp:10
+#: View/Proveedors/index.ctp:12
+msgid "Ciudad"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:11
+#: View/Clients/panel_index.ctp:15
+msgid "Telefono"
+msgstr ""
+
+#: View/Clients/panel_add.ctp:13
+#: View/Clients/panel_edit.ctp:14
+#: View/Clients/panel_index.ctp:17
+#: View/Coeficientes/add.ctp:8
+#: View/Coeficientes/edit.ctp:9
+msgid "Habilitado"
+msgstr ""
+
+#: View/Clients/panel_edit.ctp:6
+msgid "C骴igo"
+msgstr ""
+
+#: View/Clients/panel_edit.ctp:8
+msgid "Raz髇 Social"
+msgstr ""
+
+#: View/Clients/panel_edit.ctp:10
+msgid "Direcci髇"
+msgstr ""
+
+#: View/Clients/panel_edit.ctp:12
+msgid "Tel閒ono"
+msgstr ""
+
+#: View/Clients/panel_index.ctp:105
+#: View/Clients/view.ctp:137
+#: View/Coeficientes/index.ctp:30
+#: View/LiquidationsTypes/index.ctp:28
+#: View/Propietarios/index.ctp:109;110
+#: View/Users/index.ctp:34
+msgid "Habilitar / Deshabilitar"
+msgstr ""
+
+#: View/Clients/panel_index.ctp:110
+#: View/Clients/view.ctp:142
+#: View/Coeficientes/index.ctp:35
+#: View/CoeficientesPropietarios/index.ctp:36
+#: View/CoeficientesPropietarios/old/index.ctp:38
+#: View/Colaimpresiones/index.ctp:46
+#: View/Consorcios/index.ctp:56
+#: View/Consorcios/panel_index.ctp:71
+#: View/Cuentasgastosparticulares/index.ctp:39
+#: View/GastosGenerales/index.ctp:63
+#: View/GastosParticulares/index.ctp:58
+#: View/Liquidations/index.ctp:73;76
+#: View/Liquidations/panel_index.ctp:73;76
+#: View/LiquidationsTypes/index.ctp:33
+#: View/Propietarios/index.ctp:115
+#: View/Proveedors/index.ctp:47
+#: View/Rubros/index.ctp:34
+#: View/SaldosIniciales/index.ctp:39
+#: View/Users/index.ctp:39
+#: View/Users/panel_index.ctp:76
+msgid "Eliminar el dato # %s?"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:2
+#: View/Colaimpresiones/view.ctp:9
+#: View/Consorcios/panel_view.ctp:9
+#: View/Consorcios/view.ctp:9
+#: View/LiquidationsTypes/view.ctp:9
+#: View/Proveedors/view.ctp:9
+#: View/Users/panel_view.ctp:9
+#: View/Users/view.ctp:9
+msgid "Client"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:49;128;211
+#: View/Clients/view.ctp:97
+#: View/Coeficientes/index.ctp:11
+#: View/Coeficientes/view.ctp:19;164
+#: View/Consorcios/panel_view.ctp:122;206;242
+#: View/Consorcios/view.ctp:70;105;199
+#: View/LiquidationsTypes/index.ctp:10
+#: View/LiquidationsTypes/view.ctp:19
+#: View/Propietarios/view.ctp:79;209
+#: View/Users/index.ctp:12
+#: View/Users/panel_index.ctp:14
+#: View/Users/panel_view.ctp:34
+#: View/Users/view.ctp:34
+msgid "Enabled"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:69
+msgid "Edit Client"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:70
+msgid "Delete Client"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:71
+#: View/Colaimpresiones/view.ctp:48
+#: View/Consorcios/panel_view.ctp:43
+#: View/Consorcios/view.ctp:48
+#: View/LiquidationsTypes/view.ctp:43
+#: View/Proveedors/view.ctp:58
+#: View/Users/panel_view.ctp:58
+#: View/Users/view.ctp:58
+msgid "List Clients"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:72
+#: View/Colaimpresiones/view.ctp:49
+#: View/Consorcios/panel_view.ctp:44
+#: View/Consorcios/view.ctp:49
+#: View/LiquidationsTypes/view.ctp:44
+#: View/Proveedors/view.ctp:59
+#: View/Users/panel_view.ctp:59
+#: View/Users/view.ctp:59
+msgid "New Client"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:73
+#: View/Coeficientes/view.ctp:38
+#: View/Consorcios/panel_view.ctp:41
+#: View/Consorcios/view.ctp:46
+#: View/ConsorciosCoeficientes/add.ctp:18
+#: View/ConsorciosCoeficientes/edit.ctp:20
+#: View/ConsorciosCoeficientes/index.ctp:49
+#: View/ConsorciosCoeficientes/view.ctp:28
+#: View/Cuentasgastosparticulares/view.ctp:38
+#: View/Liquidations/view.ctp:63
+#: View/Propietarios/view.ctp:103
+#: View/Rubros/view.ctp:38
+msgid "List Consorcios"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:74;116
+#: View/Coeficientes/view.ctp:39
+#: View/Consorcios/panel_view.ctp:42
+#: View/Consorcios/view.ctp:47
+#: View/ConsorciosCoeficientes/add.ctp:19
+#: View/ConsorciosCoeficientes/edit.ctp:21
+#: View/ConsorciosCoeficientes/index.ctp:50
+#: View/ConsorciosCoeficientes/view.ctp:29
+#: View/Cuentasgastosparticulares/view.ctp:39
+#: View/Liquidations/view.ctp:64
+#: View/Propietarios/view.ctp:104
+#: View/Rubros/view.ctp:39
+msgid "New Consorcio"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:75
+#: View/Liquidations/view.ctp:65
+#: View/LiquidationsTypes/view.ctp:41
+#: View/SaldosIniciales/view.ctp:48
+msgid "List Liquidations Types"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:76;153
+#: View/Liquidations/view.ctp:66
+#: View/LiquidationsTypes/view.ctp:42
+#: View/SaldosIniciales/view.ctp:49
+msgid "New Liquidations Type"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:77
+#: View/Facturaproveedors/view.ctp:48
+#: View/GastosGenerales/view.ctp:72
+#: View/GastosParticulares/view.ctp:77
+#: View/Pagoproveedors/view.ctp:53
+#: View/Proveedors/view.ctp:56
+msgid "List Proveedors"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:78;196
+#: View/Facturaproveedors/view.ctp:49
+#: View/GastosGenerales/view.ctp:73
+#: View/GastosParticulares/view.ctp:78
+#: View/Pagoproveedors/view.ctp:54
+#: View/Proveedors/view.ctp:57
+msgid "New Proveedor"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:79
+#: View/Users/panel_view.ctp:56
+#: View/Users/view.ctp:56
+msgid "List Users"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:80;239
+#: View/Users/panel_view.ctp:57
+#: View/Users/view.ctp:57
+msgid "New User"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:84
+msgid "Related Consorcios"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:89;126;163;206
+#: View/Colaimpresiones/index.ctp:9
+#: View/Users/panel_index.ctp:9
+msgid "Client Id"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:91
+#: View/Coeficientes/view.ctp:59;107
+#: View/Consorcios/index.ctp:11
+#: View/Consorcios/panel_view.ctp:19;69
+#: View/Consorcios/view.ctp:24;146
+#: View/Cuentasgastosparticulares/view.ctp:56
+#: View/Facturaproveedors/index.ctp:10
+#: View/Facturaproveedors/view.ctp:14;63
+#: View/GastosGenerales/view.ctp:34
+#: View/GastosParticulares/view.ctp:39
+#: View/Liquidations/view.ctp:39;86;134
+#: View/LiquidationsTypes/view.ctp:61
+#: View/Pagoproveedors/index.ctp:12
+#: View/Pagoproveedors/view.ctp:24
+#: View/Propietarios/view.ctp:125
+#: View/Proveedors/view.ctp:77;125
+#: View/Rubros/view.ctp:55
+msgid "Description"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:105;142;185;228
+#: View/Coeficientes/view.ctp:80;129;190
+#: View/Consorcios/panel_view.ctp:87;148;183;220;253
+#: View/Consorcios/view.ctp:82;119;164;225;260
+#: View/ConsorciosCoeficientes/index.ctp:23
+#: View/ConsorciosCoeficientes/view.ctp:80
+#: View/Cuentasgastosparticulares/view.ctp:78
+#: View/Facturaproveedors/view.ctp:80
+#: View/Liquidations/view.ctp:107;156;195
+#: View/LiquidationsTypes/view.ctp:79
+#: View/Propietarios/view.ctp:147;186;221
+#: View/Proveedors/view.ctp:98;147
+#: View/Rubros/view.ctp:76
+msgid "View"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:106;143;186;229
+#: View/Coeficientes/view.ctp:81;130;191
+#: View/Consorcios/panel_view.ctp:88;149;184;221;254
+#: View/Consorcios/view.ctp:83;120;165;226;261
+#: View/ConsorciosCoeficientes/index.ctp:24
+#: View/ConsorciosCoeficientes/view.ctp:81
+#: View/Cuentasgastosparticulares/view.ctp:79
+#: View/Facturaproveedors/view.ctp:81
+#: View/Liquidations/view.ctp:108;157;196
+#: View/LiquidationsTypes/view.ctp:80
+#: View/Propietarios/view.ctp:148;187;222
+#: View/Proveedors/view.ctp:99;148
+#: View/Rubros/view.ctp:77
+msgid "Edit"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:107;144;187;230
+#: View/Coeficientes/view.ctp:82;131;192
+#: View/Consorcios/panel_view.ctp:89;150;185;222;255
+#: View/Consorcios/view.ctp:84;121;166;227;262
+#: View/ConsorciosCoeficientes/edit.ctp:18
+#: View/ConsorciosCoeficientes/index.ctp:25
+#: View/ConsorciosCoeficientes/view.ctp:82
+#: View/Cuentasgastosparticulares/view.ctp:80
+#: View/Facturaproveedors/view.ctp:82
+#: View/Liquidations/view.ctp:109;158;197
+#: View/LiquidationsTypes/view.ctp:81
+#: View/Propietarios/view.ctp:149;188;223
+#: View/Proveedors/view.ctp:100;149
+#: View/Rubros/view.ctp:78
+msgid "Delete"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:121
+msgid "Related Liquidations Types"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:158
+msgid "Related Proveedors"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:201
+msgid "Related Users"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:208
+#: View/Clients/view.ctp:95
+#: View/Users/index.ctp:10
+#: View/Users/panel_index.ctp:11
+#: View/Users/panel_view.ctp:19
+#: View/Users/view.ctp:19
+msgid "Username"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:209
+#: View/Clients/view.ctp:96
+#: View/Users/index.ctp:11
+#: View/Users/panel_index.ctp:12
+#: View/Users/panel_view.ctp:24
+#: View/Users/view.ctp:24
+msgid "Password"
+msgstr ""
+
+#: View/Clients/panel_view.ctp:210
+#: View/Users/panel_view.ctp:29
+#: View/Users/view.ctp:29
+msgid "Is Admin"
+msgstr ""
+
+#: View/Cobranzas/add.ctp:4
+msgid "Agregar Cobranza"
+msgstr ""
+
+#: View/Cobranzas/add.ctp:6
+#: View/Cobranzas/edit.ctp:7
+#: View/GastosGenerales/add2.ctp:6
+#: View/GastosGenerales/index.ctp:10
+#: View/GastosParticulares/add2.ctp:7
+#: View/GastosParticulares/index.ctp:9
+msgid "Liquidaci贸n"
+msgstr ""
+
+#: View/Cobranzas/add.ctp:7
+#: View/Cobranzas/edit.ctp:8
+#: View/Cobranzas/index.ctp:10
+#: View/Cobranzas/view.ctp:14
+#: View/CoeficientesPropietarios/view.ctp:14
+#: View/CoeficientesPropietarios/old/add.ctp:7
+#: View/GastosParticulares/add2.ctp:9
+#: View/GastosParticulares/index.ctp:11
+#: View/GastosParticulares/view.ctp:24
+#: View/Propietarios/view.ctp:2
+#: View/SaldosCierres/view.ctp:14
+#: View/SaldosIniciales/add.ctp:7
+#: View/SaldosIniciales/view.ctp:14
+msgid "Propietario"
+msgstr ""
+
+#: View/Cobranzas/add.ctp:8
+#: View/Cobranzas/edit.ctp:9
+#: View/Cobranzas/index.ctp:11
+#: View/Facturaproveedors/add.ctp:8
+#: View/Facturaproveedors/edit.ctp:9
+#: View/GastosGenerales/add2.ctp:9
+#: View/GastosGenerales/index.ctp:13
+#: View/GastosParticulares/add2.ctp:11
+#: View/GastosParticulares/index.ctp:13
+msgid "Fecha"
+msgstr ""
+
+#: View/Cobranzas/add.ctp:9
+#: View/Cobranzas/edit.ctp:10
+#: View/Cobranzas/index.ctp:12
+#: View/GastosGenerales/index.ctp:15
+#: View/GastosParticulares/index.ctp:15
+msgid "Monto"
+msgstr ""
+
+#: View/Cobranzas/edit.ctp:4
+msgid "Editar Cobranza"
+msgstr ""
+
+#: View/Cobranzas/index.ctp:3
+#: View/Layouts/backendcli.ctp:47
+msgid "Cobranzas"
+msgstr ""
+
+#: View/Cobranzas/index.ctp:9
+msgid "Liquidacion"
+msgstr ""
+
+#: View/Cobranzas/index.ctp:30
+#: View/GastosGenerales/index.ctp:35
+#: View/GastosParticulares/index.ctp:35
+#: View/Liquidations/index.ctp:49;57
+#: View/Liquidations/panel_index.ctp:49;57
+msgid "d/m/Y"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:2
+msgid "Cobranza"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:9
+#: View/GastosGenerales/view.ctp:9
+#: View/GastosParticulares/view.ctp:9
+#: View/Liquidations/view.ctp:2
+#: View/Resumenes/view.ctp:9
+#: View/SaldosCierres/view.ctp:9
+msgid "Liquidation"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:19
+#: View/Coeficientes/view.ctp:60;108
+#: View/Cuentasgastosparticulares/view.ctp:57
+#: View/Facturaproveedors/index.ctp:12
+#: View/Facturaproveedors/view.ctp:24;64
+#: View/GastosGenerales/view.ctp:39
+#: View/GastosParticulares/view.ctp:44
+#: View/Liquidations/view.ctp:87;135
+#: View/Pagoproveedors/index.ctp:13
+#: View/Pagoproveedors/view.ctp:29
+#: View/Propietarios/view.ctp:126
+#: View/Proveedors/view.ctp:78;126
+#: View/Rubros/view.ctp:56
+msgid "Amount"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:39
+msgid "Edit Cobranza"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:40
+msgid "Delete Cobranza"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:41
+msgid "List Cobranzas"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:42
+msgid "New Cobranza"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:43
+#: View/Consorcios/panel_view.ctp:45
+#: View/Consorcios/view.ctp:54
+#: View/GastosGenerales/view.ctp:68
+#: View/GastosParticulares/view.ctp:73
+#: View/Liquidations/view.ctp:61
+#: View/LiquidationsTypes/view.ctp:45
+#: View/Resumenes/view.ctp:38
+#: View/SaldosCierres/view.ctp:53
+msgid "List Liquidations"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:44
+#: View/Consorcios/panel_view.ctp:46;98
+#: View/Consorcios/view.ctp:55;175
+#: View/GastosGenerales/view.ctp:69
+#: View/GastosParticulares/view.ctp:74
+#: View/Liquidations/view.ctp:62
+#: View/LiquidationsTypes/view.ctp:46;90
+#: View/Resumenes/view.ctp:39
+#: View/SaldosCierres/view.ctp:54
+msgid "New Liquidation"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:45
+#: View/Coeficientes/view.ctp:44
+#: View/CoeficientesPropietarios/view.ctp:45
+#: View/Consorcios/panel_view.ctp:47
+#: View/Consorcios/view.ctp:56
+#: View/ConsorciosCoeficientes/add.ctp:22
+#: View/ConsorciosCoeficientes/edit.ctp:24
+#: View/ConsorciosCoeficientes/index.ctp:53
+#: View/ConsorciosCoeficientes/view.ctp:32
+#: View/GastosParticulares/view.ctp:79
+#: View/Propietarios/view.ctp:101
+#: View/SaldosCierres/view.ctp:55
+#: View/SaldosIniciales/view.ctp:50
+msgid "List Propietarios"
+msgstr ""
+
+#: View/Cobranzas/view.ctp:46
+#: View/Coeficientes/view.ctp:45;201
+#: View/CoeficientesPropietarios/view.ctp:46
+#: View/Consorcios/panel_view.ctp:48;159
+#: View/Consorcios/view.ctp:57;236
+#: View/ConsorciosCoeficientes/add.ctp:23
+#: View/ConsorciosCoeficientes/edit.ctp:25
+#: View/ConsorciosCoeficientes/index.ctp:54
+#: View/ConsorciosCoeficientes/view.ctp:33;91
+#: View/GastosParticulares/view.ctp:80
+#: View/Propietarios/view.ctp:102
+#: View/SaldosCierres/view.ctp:56
+#: View/SaldosIniciales/view.ctp:51
+msgid "New Propietario"
+msgstr ""
+
+#: View/Coeficientes/add.ctp:4
+msgid "Agregar Coeficiente"
+msgstr ""
+
+#: View/Coeficientes/add.ctp:6
+#: View/Coeficientes/edit.ctp:7
+#: View/Coeficientes/view.ctp:9
+#: View/Consorcios/panel_view.ctp:2
+#: View/Consorcios/view.ctp:2
+#: View/ConsorciosCoeficientes/view.ctp:9
+#: View/Cuentasgastosparticulares/view.ctp:9
+#: View/GastosGenerales/index.ctp:9
+#: View/Liquidations/add.ctp:6
+#: View/Liquidations/add2.ctp:6
+#: View/Liquidations/view.ctp:9
+#: View/Propietarios/add.ctp:6
+#: View/Propietarios/edit.ctp:7
+#: View/Propietarios/view.ctp:9
+#: View/Rubros/view.ctp:9
+msgid "Consorcio"
+msgstr ""
+
+#: View/Coeficientes/edit.ctp:4
+msgid "Editar Coeficiente"
+msgstr ""
+
+#: View/Coeficientes/index.ctp:3
+#: View/Layouts/backendadmin.ctp:35
+msgid "Coeficientes"
+msgstr ""
+
+#: View/Coeficientes/index.ctp:9
+#: View/Coeficientes/view.ctp:150
+#: View/Consorcios/panel_view.ctp:63;108;169;204
+#: View/Consorcios/view.ctp:68;103;140;185;246
+#: View/ConsorciosCoeficientes/view.ctp:42
+#: View/Cuentasgastosparticulares/index.ctp:9
+#: View/Liquidations/index.ctp:9
+#: View/Liquidations/panel_index.ctp:9
+#: View/LiquidationsTypes/view.ctp:55
+#: View/Propietarios/index.ctp:9
+#: View/Propietarios/view.ctp:207
+#: View/Rubros/index.ctp:9
+msgid "Consorcio Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:2
+#: View/CoeficientesPropietarios/view.ctp:9
+#: View/CoeficientesPropietarios/old/add.ctp:6
+#: View/Consorcios/panel_edit.ctp:10
+#: View/ConsorciosCoeficientes/view.ctp:14
+#: View/GastosGenerales/add2.ctp:8
+#: View/GastosGenerales/index.ctp:12
+#: View/GastosGenerales/view.ctp:24
+#: View/GastosParticulares/add2.ctp:10
+#: View/GastosParticulares/index.ctp:12
+#: View/GastosParticulares/view.ctp:29
+msgid "Coeficiente"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:34
+msgid "Edit Coeficiente"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:35
+msgid "Delete Coeficiente"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:36
+#: View/CoeficientesPropietarios/view.ctp:43
+#: View/Consorcios/panel_view.ctp:53
+#: View/Consorcios/view.ctp:50
+#: View/ConsorciosCoeficientes/add.ctp:20
+#: View/ConsorciosCoeficientes/edit.ctp:22
+#: View/ConsorciosCoeficientes/index.ctp:51
+#: View/ConsorciosCoeficientes/view.ctp:30
+#: View/GastosGenerales/view.ctp:74
+#: View/GastosParticulares/view.ctp:81
+#: View/Propietarios/view.ctp:109
+msgid "List Coeficientes"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:37
+#: View/CoeficientesPropietarios/view.ctp:44
+#: View/Consorcios/panel_view.ctp:54;264
+#: View/Consorcios/view.ctp:51;93
+#: View/ConsorciosCoeficientes/add.ctp:21
+#: View/ConsorciosCoeficientes/edit.ctp:23
+#: View/ConsorciosCoeficientes/index.ctp:52
+#: View/ConsorciosCoeficientes/view.ctp:31
+#: View/GastosGenerales/view.ctp:75
+#: View/GastosParticulares/view.ctp:82
+#: View/Propietarios/view.ctp:110;232
+msgid "New Coeficiente"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:40
+#: View/GastosGenerales/view.ctp:66
+#: View/Liquidations/view.ctp:67
+#: View/Proveedors/view.ctp:60
+#: View/Rubros/view.ctp:40
+msgid "List Gastos Generales"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:41;91
+#: View/GastosGenerales/view.ctp:67
+#: View/Liquidations/view.ctp:68;118
+#: View/Proveedors/view.ctp:61;109
+#: View/Rubros/view.ctp:41;87
+msgid "New Gastos Generale"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:42
+#: View/Cuentasgastosparticulares/view.ctp:40
+#: View/GastosParticulares/view.ctp:71
+#: View/Liquidations/view.ctp:69
+#: View/Propietarios/view.ctp:105
+#: View/Proveedors/view.ctp:62
+msgid "List Gastos Particulares"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:43;140
+#: View/Cuentasgastosparticulares/view.ctp:41;89
+#: View/GastosParticulares/view.ctp:72
+#: View/Liquidations/view.ctp:70;167
+#: View/Propietarios/view.ctp:106;158
+#: View/Proveedors/view.ctp:63;158
+msgid "New Gastos Particulare"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:49
+#: View/Liquidations/view.ctp:76
+#: View/Proveedors/view.ctp:67
+#: View/Rubros/view.ctp:45
+msgid "Related Gastos Generales"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:54;101
+#: View/Cuentasgastosparticulares/view.ctp:50
+#: View/Liquidations/view.ctp:81;128;177
+#: View/Propietarios/view.ctp:119;168
+#: View/Proveedors/view.ctp:72;119
+#: View/Resumenes/index.ctp:9
+#: View/Rubros/view.ctp:50
+#: View/SaldosCierres/index.ctp:9
+msgid "Liquidation Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:55
+#: View/Liquidations/view.ctp:82
+#: View/Proveedors/view.ctp:73
+#: View/Rubros/view.ctp:51
+msgid "Rubro Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:56;103
+#: View/Cuentasgastosparticulares/view.ctp:52
+#: View/Facturaproveedors/index.ctp:9
+#: View/Facturaproveedors/view.ctp:60
+#: View/Liquidations/view.ctp:83;130
+#: View/Pagoproveedors/index.ctp:9
+#: View/Propietarios/view.ctp:121
+#: View/Proveedors/view.ctp:74;121
+#: View/Rubros/view.ctp:52
+msgid "Proveedor Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:57;105
+#: View/CoeficientesPropietarios/index.ctp:9
+#: View/CoeficientesPropietarios/old/index.ctp:9
+#: View/CoeficientesPropietarios/old/view.ctp:9
+#: View/Cuentasgastosparticulares/view.ctp:54
+#: View/Liquidations/view.ctp:84;132
+#: View/Propietarios/view.ctp:123
+#: View/Proveedors/view.ctp:75;123
+#: View/Rubros/view.ctp:53
+msgid "Coeficiente Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:58;106
+#: View/Cuentasgastosparticulares/view.ctp:55
+#: View/Facturaproveedors/index.ctp:11
+#: View/Facturaproveedors/view.ctp:19;62
+#: View/GastosGenerales/view.ctp:29
+#: View/GastosParticulares/view.ctp:34
+#: View/Liquidations/view.ctp:85;133
+#: View/Pagoproveedors/index.ctp:11
+#: View/Pagoproveedors/view.ctp:19
+#: View/Propietarios/view.ctp:124
+#: View/Proveedors/view.ctp:76;124
+#: View/Rubros/view.ctp:54
+msgid "Date"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:61;109
+#: View/Cuentasgastosparticulares/view.ctp:58
+#: View/GastosGenerales/view.ctp:44
+#: View/GastosParticulares/view.ctp:49
+#: View/Liquidations/view.ctp:88;136
+#: View/Propietarios/view.ctp:127
+#: View/Proveedors/view.ctp:79;127
+#: View/Rubros/view.ctp:57
+msgid "Numero Factura"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:96
+#: View/Cuentasgastosparticulares/view.ctp:45
+#: View/Liquidations/view.ctp:123
+#: View/Propietarios/view.ctp:114
+#: View/Proveedors/view.ctp:114
+msgid "Related Gastos Particulares"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:102
+#: View/Cuentasgastosparticulares/view.ctp:51
+#: View/Liquidations/view.ctp:129
+#: View/Propietarios/view.ctp:120
+#: View/Proveedors/view.ctp:120
+msgid "Cuentasgastosparticulare Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:104
+#: View/CoeficientesPropietarios/index.ctp:10
+#: View/CoeficientesPropietarios/old/index.ctp:10
+#: View/CoeficientesPropietarios/old/view.ctp:14
+#: View/Cuentasgastosparticulares/view.ctp:53
+#: View/Liquidations/view.ctp:131;178
+#: View/Propietarios/view.ctp:122;169
+#: View/Proveedors/view.ctp:122
+#: View/SaldosCierres/index.ctp:10
+#: View/SaldosIniciales/index.ctp:10
+msgid "Propietario Id"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:145
+#: View/Consorcios/panel_view.ctp:103
+#: View/Consorcios/view.ctp:180
+#: View/ConsorciosCoeficientes/view.ctp:37
+msgid "Related Propietarios"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:153
+#: View/Consorcios/panel_view.ctp:111
+#: View/Consorcios/view.ctp:188
+#: View/ConsorciosCoeficientes/view.ctp:45
+#: View/Propietarios/view.ctp:24
+msgid "Dni"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:156
+#: View/Consorcios/panel_view.ctp:114
+#: View/Consorcios/view.ctp:191
+#: View/ConsorciosCoeficientes/view.ctp:48
+#: View/Propietarios/index.ctp:14
+#: View/Propietarios/view.ctp:39
+msgid "Postal Address"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:158
+#: View/Consorcios/panel_view.ctp:116
+#: View/Consorcios/view.ctp:193
+#: View/ConsorciosCoeficientes/view.ctp:50
+#: View/Propietarios/index.ctp:16
+#: View/Propietarios/view.ctp:49
+msgid "Postal City"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:160
+#: View/Consorcios/panel_view.ctp:118
+#: View/Consorcios/view.ctp:195
+#: View/ConsorciosCoeficientes/view.ctp:52
+#: View/Propietarios/add.ctp:15
+#: View/Propietarios/edit.ctp:16
+#: View/Propietarios/index.ctp:18
+#: View/Propietarios/view.ctp:59
+msgid "Unidad"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:161
+#: View/Consorcios/panel_view.ctp:119
+#: View/Consorcios/view.ctp:196
+#: View/ConsorciosCoeficientes/view.ctp:53
+#: View/Propietarios/view.ctp:64
+msgid "Observations"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:162
+#: View/Consorcios/panel_view.ctp:120
+#: View/Consorcios/view.ctp:197
+#: View/ConsorciosCoeficientes/view.ctp:54
+#: View/Propietarios/index.ctp:19
+#: View/Propietarios/view.ctp:69
+msgid "Imprime Resumen Cuenta"
+msgstr ""
+
+#: View/Coeficientes/view.ctp:163
+#: View/Consorcios/panel_view.ctp:121
+#: View/Consorcios/view.ctp:198
+#: View/ConsorciosCoeficientes/view.ctp:55
+#: View/Propietarios/add.ctp:21
+#: View/Propietarios/edit.ctp:22
+#: View/Propietarios/index.ctp:20
+#: View/Propietarios/view.ctp:74
+msgid "Sistema Online"
+msgstr ""
+
+#: View/CoeficientesPropietarios/add.ctp:4
+#: View/CoeficientesPropietarios/old/add.ctp:4
+#: View/CoeficientesPropietarios/old/edit.ctp:4
+msgid "Agregar Coeficientes Propietario"
+msgstr ""
+
+#: View/CoeficientesPropietarios/add.ctp:6
+#: View/CoeficientesPropietarios/edit.ctp:7
+#: View/CoeficientesPropietarios/old/edit.ctp:7
+#: View/GastosGenerales/edit.ctp:9
+#: View/GastosParticulares/edit.ctp:10
+msgid "coeficiente_id"
+msgstr ""
+
+#: View/CoeficientesPropietarios/add.ctp:7
+#: View/CoeficientesPropietarios/edit.ctp:8
+#: View/CoeficientesPropietarios/old/edit.ctp:8
+#: View/GastosParticulares/edit.ctp:9
+#: View/SaldosCierres/add.ctp:7
+#: View/SaldosCierres/edit.ctp:8
+#: View/SaldosIniciales/edit.ctp:8
+msgid "propietario_id"
+msgstr ""
+
+#: View/CoeficientesPropietarios/add.ctp:8
+#: View/CoeficientesPropietarios/edit.ctp:9
+#: View/CoeficientesPropietarios/old/edit.ctp:9
+msgid "value"
+msgstr ""
+
+#: View/CoeficientesPropietarios/edit.ctp:4
+msgid "Editar Coeficientes Propietario"
+msgstr ""
+
+#: View/CoeficientesPropietarios/index.ctp:3
+#: View/CoeficientesPropietarios/old/index.ctp:3
+msgid "Coeficientes Propietarios"
+msgstr ""
+
+#: View/CoeficientesPropietarios/index.ctp:11
+#: View/CoeficientesPropietarios/view.ctp:19
+#: View/CoeficientesPropietarios/old/index.ctp:11
+#: View/CoeficientesPropietarios/old/view.ctp:19
+msgid "Value"
+msgstr ""
+
+#: View/CoeficientesPropietarios/view.ctp:2
+#: View/CoeficientesPropietarios/old/view.ctp:2
+msgid "Coeficientes Propietario"
+msgstr ""
+
+#: View/CoeficientesPropietarios/view.ctp:39
+#: View/CoeficientesPropietarios/old/view.ctp:39
+msgid "Edit Coeficientes Propietario"
+msgstr ""
+
+#: View/CoeficientesPropietarios/view.ctp:40
+#: View/CoeficientesPropietarios/old/view.ctp:40
+msgid "Delete Coeficientes Propietario"
+msgstr ""
+
+#: View/CoeficientesPropietarios/view.ctp:41
+#: View/CoeficientesPropietarios/old/view.ctp:41
+msgid "List Coeficientes Propietarios"
+msgstr ""
+
+#: View/CoeficientesPropietarios/view.ctp:42
+#: View/CoeficientesPropietarios/old/view.ctp:42
+msgid "New Coeficientes Propietario"
+msgstr ""
+
+#: View/CoeficientesPropietarios/old/add.ctp:8
+msgid "Valor del coeficiente"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:4
+msgid "Agregar Colaimpresione"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:6
+#: View/Colaimpresiones/edit.ctp:7
+#: View/Consorcios/edit.ctp:7
+#: View/LiquidationsTypes/add.ctp:6
+#: View/LiquidationsTypes/edit.ctp:7
+#: View/Users/add.ctp:6
+#: View/Users/edit.ctp:7
+#: View/Users/panel_add.ctp:4
+#: View/Users/panel_edit.ctp:4
+msgid "client_id"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:7
+#: View/Colaimpresiones/edit.ctp:8
+msgid "descripcion"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:8
+#: View/Colaimpresiones/edit.ctp:9
+msgid "reporte"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:9
+#: View/Colaimpresiones/edit.ctp:10
+msgid "copias"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:10
+#: View/Colaimpresiones/edit.ctp:11
+msgid "bloqueado"
+msgstr ""
+
+#: View/Colaimpresiones/add.ctp:11
+#: View/Colaimpresiones/edit.ctp:12
+msgid "impreso"
+msgstr ""
+
+#: View/Colaimpresiones/edit.ctp:4
+msgid "Editar Colaimpresione"
+msgstr ""
+
+#: View/Colaimpresiones/index.ctp:3
+msgid "Colaimpresiones"
+msgstr ""
+
+#: View/Colaimpresiones/index.ctp:10
+#: View/Colaimpresiones/view.ctp:14
+msgid "Descripcion"
+msgstr ""
+
+#: View/Colaimpresiones/index.ctp:11
+#: View/Colaimpresiones/view.ctp:19
+msgid "Reporte"
+msgstr ""
+
+#: View/Colaimpresiones/index.ctp:12
+#: View/Colaimpresiones/view.ctp:24
+msgid "Copias"
+msgstr ""
+
+#: View/Colaimpresiones/index.ctp:13
+#: View/Colaimpresiones/view.ctp:29
+msgid "Bloqueado"
+msgstr ""
+
+#: View/Colaimpresiones/index.ctp:14
+#: View/Colaimpresiones/view.ctp:34
+msgid "Impreso"
+msgstr ""
+
+#: View/Colaimpresiones/view.ctp:2
+msgid "Colaimpresione"
+msgstr ""
+
+#: View/Colaimpresiones/view.ctp:44
+msgid "Edit Colaimpresione"
+msgstr ""
+
+#: View/Colaimpresiones/view.ctp:45
+msgid "Delete Colaimpresione"
+msgstr ""
+
+#: View/Colaimpresiones/view.ctp:46
+msgid "List Colaimpresiones"
+msgstr ""
+
+#: View/Colaimpresiones/view.ctp:47
+msgid "New Colaimpresione"
+msgstr ""
+
+#: View/Consorcios/add.ctp:4
+#: View/Consorcios/panel_add.ctp:4
+#: View/Consorcios/panel_edit.ctp:4
+msgid "Agregar Consorcio"
+msgstr ""
+
+#: View/Consorcios/add.ctp:6
+#: View/Consorcios/edit.ctp:8
+#: View/Consorcios/panel_add.ctp:7
+#: View/Consorcios/panel_index.ctp:10
+#: View/Propietarios/add.ctp:7
+#: View/Propietarios/edit.ctp:8
+msgid "C贸digo"
+msgstr ""
+
+#: View/Consorcios/add.ctp:11
+#: View/Consorcios/edit.ctp:13
+#: View/Propietarios/add.ctp:14
+#: View/Propietarios/edit.ctp:15
+#: View/Proveedors/add.ctp:10
+#: View/Proveedors/edit.ctp:11
+#: View/Proveedors/index.ctp:13
+msgid "Tel茅fono"
+msgstr ""
+
+#: View/Consorcios/add.ctp:12
+#: View/Consorcios/edit.ctp:14
+#: View/Consorcios/panel_add.ctp:9
+#: View/Consorcios/panel_edit.ctp:9
+#: View/Consorcios/panel_index.ctp:12
+#: View/Facturaproveedors/add.ctp:7
+#: View/Facturaproveedors/edit.ctp:8
+#: View/GastosGenerales/add2.ctp:10
+#: View/GastosGenerales/index.ctp:14
+#: View/GastosParticulares/add2.ctp:12
+#: View/GastosParticulares/index.ctp:14
+msgid "Descripci贸n"
+msgstr ""
+
+#: View/Consorcios/edit.ctp:4
+msgid "Editar Consorcio"
+msgstr ""
+
+#: View/Consorcios/index.ctp:3
+#: View/Consorcios/panel_index.ctp:3
+#: View/Layouts/backendadmin.ctp:33
+msgid "Consorcios"
+msgstr ""
+
+#: View/Consorcios/panel_add.ctp:6
+#: View/Consorcios/panel_edit.ctp:7
+#: View/Consorcios/panel_index.ctp:9
+msgid "Cliente"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:39
+#: View/Consorcios/view.ctp:44
+msgid "Edit Consorcio"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:40
+#: View/Consorcios/view.ctp:45
+msgid "Delete Consorcio"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:49
+#: View/Consorcios/view.ctp:58
+#: View/GastosGenerales/view.ctp:70
+#: View/Rubros/view.ctp:36
+msgid "List Rubros"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:50;194
+#: View/Consorcios/view.ctp:59;271
+#: View/GastosGenerales/view.ctp:71
+#: View/Rubros/view.ctp:37
+msgid "New Rubro"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:51
+#: View/Consorcios/view.ctp:52
+#: View/Cuentasgastosparticulares/view.ctp:36
+#: View/GastosParticulares/view.ctp:75
+msgid "List Cuentasgastosparticulares"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:52;231
+#: View/Consorcios/view.ctp:53;130
+#: View/Cuentasgastosparticulares/view.ctp:37
+#: View/GastosParticulares/view.ctp:76
+msgid "New Cuentasgastosparticulare"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:58
+#: View/Consorcios/view.ctp:135
+#: View/LiquidationsTypes/view.ctp:50
+msgid "Related Liquidations"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:64
+#: View/Consorcios/view.ctp:141
+#: View/Liquidations/index.ctp:10
+#: View/Liquidations/panel_index.ctp:10
+#: View/LiquidationsTypes/view.ctp:56
+#: View/SaldosIniciales/index.ctp:9
+msgid "Liquidations Type Id"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:66
+#: View/Consorcios/view.ctp:143
+#: View/Liquidations/index.ctp:12
+#: View/Liquidations/panel_index.ctp:12
+#: View/Liquidations/view.ctp:24
+#: View/LiquidationsTypes/view.ctp:58
+msgid "Periodo"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:67
+#: View/Consorcios/view.ctp:144
+#: View/Liquidations/index.ctp:13
+#: View/Liquidations/panel_index.ctp:13
+#: View/Liquidations/view.ctp:29
+#: View/LiquidationsTypes/view.ctp:59
+msgid "Vencimiento"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:68
+#: View/Consorcios/view.ctp:145
+#: View/Liquidations/index.ctp:14
+#: View/Liquidations/panel_index.ctp:14
+#: View/Liquidations/view.ctp:34
+#: View/LiquidationsTypes/view.ctp:60
+msgid "Limite"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:164
+#: View/Consorcios/view.ctp:241
+msgid "Related Rubros"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:199
+#: View/Consorcios/view.ctp:98
+msgid "Related Cuentasgastosparticulares"
+msgstr ""
+
+#: View/Consorcios/panel_view.ctp:236
+#: View/Consorcios/view.ctp:63
+#: View/Propietarios/view.ctp:202
+msgid "Related Coeficientes"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/add.ctp:4
+msgid "Add Consorcios Coeficiente"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/add.ctp:11
+#: View/ConsorciosCoeficientes/edit.ctp:12
+#: View/Liquidations/prorrateo.ctp:22
+msgid "Submit"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/add.ctp:17
+#: View/ConsorciosCoeficientes/edit.ctp:19
+#: View/ConsorciosCoeficientes/view.ctp:26
+msgid "List Consorcios Coeficientes"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/edit.ctp:4
+#: View/ConsorciosCoeficientes/view.ctp:24
+msgid "Edit Consorcios Coeficiente"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/index.ctp:2
+msgid "Consorcios Coeficientes"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/index.ctp:34
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/index.ctp:39
+msgid "previous"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/index.ctp:41
+msgid "next"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/index.ctp:48
+#: View/ConsorciosCoeficientes/view.ctp:27
+msgid "New Consorcios Coeficiente"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/view.ctp:2
+msgid "Consorcios Coeficiente"
+msgstr ""
+
+#: View/ConsorciosCoeficientes/view.ctp:25
+msgid "Delete Consorcios Coeficiente"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/add.ctp:4
+msgid "Agregar Cuentasgastosparticulare"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/add.ctp:6
+#: View/Cuentasgastosparticulares/edit.ctp:7
+#: View/Liquidations/edit.ctp:7
+#: View/Rubros/add.ctp:6
+#: View/Rubros/edit.ctp:7
+msgid "consorcio_id"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/edit.ctp:4
+msgid "Editar Cuentasgastosparticulare"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/index.ctp:3
+msgid "Cuentasgastosparticulares"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/view.ctp:2
+#: View/GastosParticulares/view.ctp:14
+msgid "Cuentasgastosparticulare"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/view.ctp:34
+msgid "Edit Cuentasgastosparticulare"
+msgstr ""
+
+#: View/Cuentasgastosparticulares/view.ctp:35
+msgid "Delete Cuentasgastosparticulare"
+msgstr ""
+
+#: View/Elements/pagination.ctp:3
+msgid "<< anterior "
+msgstr ""
+
+#: View/Elements/pagination.ctp:5
+msgid " siguiente >>"
+msgstr ""
+
+#: View/Elements/toolbar.ctp:6
+msgid "P&aacute;gina {:page} de {:pages}, mostrando {:current} registros de un total de {:count}, del registro {:start} al {:end}"
+msgstr ""
+
+#: View/Elements/toolbar.ctp:16
+msgid "Buscar"
+msgstr ""
+
+#: View/Elements/toolbar.ctp:24
+msgid "Agregar"
+msgstr ""
+
+#: View/Facturaproveedors/add.ctp:4
+msgid "Agregar Facturaproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/add.ctp:6
+#: View/Facturaproveedors/edit.ctp:7
+#: View/Facturaproveedors/view.ctp:9
+#: View/GastosGenerales/view.ctp:19
+#: View/GastosParticulares/view.ctp:19
+#: View/Pagoproveedors/view.ctp:9
+#: View/Proveedors/view.ctp:2
+msgid "Proveedor"
+msgstr ""
+
+#: View/Facturaproveedors/add.ctp:9
+#: View/Facturaproveedors/edit.ctp:10
+#: View/GastosGenerales/add2.ctp:11
+#: View/GastosParticulares/add2.ctp:13
+msgid "Importe"
+msgstr ""
+
+#: View/Facturaproveedors/edit.ctp:4
+msgid "Editar Facturaproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/index.ctp:3
+msgid "Facturaproveedors"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:2
+#: View/Pagoproveedors/view.ctp:14
+msgid "Facturaproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:44
+msgid "Edit Facturaproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:45
+msgid "Delete Facturaproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:46
+#: View/Pagoproveedors/view.ctp:55
+msgid "List Facturaproveedors"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:47
+#: View/Pagoproveedors/view.ctp:56
+msgid "New Facturaproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:50
+#: View/Pagoproveedors/view.ctp:51
+msgid "List Pagoproveedors"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:51;91
+#: View/Pagoproveedors/view.ctp:52
+msgid "New Pagoproveedor"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:55
+msgid "Related Pagoproveedors"
+msgstr ""
+
+#: View/Facturaproveedors/view.ctp:61
+#: View/Pagoproveedors/index.ctp:10
+msgid "Facturaproveedor Id"
+msgstr ""
+
+#: View/GastosGenerales/add.ctp:4
+msgid "Agregar Gastos Generale"
+msgstr ""
+
+#: View/GastosGenerales/add.ctp:6
+#: View/GastosParticulares/add.ctp:6
+msgid "Seleccione la liquidaci贸n (solo se mostrar谩n las liquidaciones abiertas)"
+msgstr ""
+
+#: View/GastosGenerales/add.ctp:9
+#: View/GastosParticulares/add.ctp:9
+#: View/Liquidations/add.ctp:10
+msgid "Siguiente"
+msgstr ""
+
+#: View/GastosGenerales/add2.ctp:4
+msgid "Agregar Gastos Generales"
+msgstr ""
+
+#: View/GastosGenerales/add2.ctp:7
+#: View/GastosGenerales/index.ctp:11
+#: View/GastosGenerales/view.ctp:14
+#: View/Rubros/view.ctp:2
+msgid "Rubro"
+msgstr ""
+
+#: View/GastosGenerales/edit.ctp:4
+msgid "Editar Gastos Generale"
+msgstr ""
+
+#: View/GastosGenerales/edit.ctp:7
+#: View/GastosParticulares/edit.ctp:7
+#: View/Resumenes/add.ctp:6
+#: View/Resumenes/edit.ctp:7
+#: View/SaldosCierres/add.ctp:6
+#: View/SaldosCierres/edit.ctp:7
+msgid "liquidation_id"
+msgstr ""
+
+#: View/GastosGenerales/edit.ctp:8
+msgid "rubro_id"
+msgstr ""
+
+#: View/GastosGenerales/edit.ctp:10
+#: View/GastosParticulares/edit.ctp:11
+#: View/Pagoproveedors/add.ctp:8
+#: View/Pagoproveedors/edit.ctp:9
+#: Model/Facturaproveedor.php:validation for field date
+#: Model/GastosGenerale.php:validation for field date
+#: Model/Liquidation.php:validation for field vencimiento;validation for field limite
+#: Model/Pagoproveedor.php:validation for field date
+msgid "date"
+msgstr ""
+
+#: View/GastosGenerales/edit.ctp:11
+#: View/GastosParticulares/edit.ctp:12
+#: View/Liquidations/add2.ctp:13
+#: View/Liquidations/edit.ctp:13
+#: View/Pagoproveedors/add.ctp:9
+#: View/Pagoproveedors/edit.ctp:10
+msgid "description"
+msgstr ""
+
+#: View/GastosGenerales/edit.ctp:12
+#: View/GastosParticulares/edit.ctp:13
+#: View/Pagoproveedors/add.ctp:10
+#: View/Pagoproveedors/edit.ctp:11
+msgid "amount"
+msgstr ""
+
+#: View/GastosGenerales/index.ctp:3
+#: View/Layouts/backendadmin.ctp:41
+msgid "Gastos Generales"
+msgstr ""
+
+#: View/GastosGenerales/view.ctp:2
+msgid "Gastos Generale"
+msgstr ""
+
+#: View/GastosGenerales/view.ctp:64
+msgid "Edit Gastos Generale"
+msgstr ""
+
+#: View/GastosGenerales/view.ctp:65
+msgid "Delete Gastos Generale"
+msgstr ""
+
+#: View/GastosParticulares/add.ctp:4
+#: View/GastosParticulares/add2.ctp:5
+msgid "Agregar Gastos Particulares"
+msgstr ""
+
+#: View/GastosParticulares/add2.ctp:1
+msgid "Seleccione propietario (si es gasto particular) o coeficiente (si es gasto particular prorrateado), no ambos simult谩neamente"
+msgstr ""
+
+#: View/GastosParticulares/add2.ctp:8
+msgid "Cuenta GP"
+msgstr ""
+
+#: View/GastosParticulares/edit.ctp:4
+msgid "Editar Gastos Particulare"
+msgstr ""
+
+#: View/GastosParticulares/edit.ctp:8
+msgid "cuentasgastosparticulare_id"
+msgstr ""
+
+#: View/GastosParticulares/index.ctp:3
+#: View/Layouts/backendadmin.ctp:42
+msgid "Gastos Particulares"
+msgstr ""
+
+#: View/GastosParticulares/index.ctp:10
+msgid "Cuenta"
+msgstr ""
+
+#: View/GastosParticulares/view.ctp:2
+msgid "Gastos Particulare"
+msgstr ""
+
+#: View/GastosParticulares/view.ctp:69
+msgid "Edit Gastos Particulare"
+msgstr ""
+
+#: View/GastosParticulares/view.ctp:70
+msgid "Delete Gastos Particulare"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:17
+#: View/Layouts/backendcli.ctp:17
+#: View/Layouts/default.ctp:17
+msgid "CEOnline - Panel de control"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:26
+#: View/Layouts/backendcli.ctp:26
+msgid "Bienvenid@, "
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:30;31;32;33;34;35;36;37
+#: View/Layouts/backendcli.ctp:30;31;32;33;34;35;36
+msgid "Datos"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:31
+msgid "Clientes"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:32
+#: View/Layouts/backendcli.ctp:32
+msgid "Usuarios"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:34
+#: View/Propietarios/index.ctp:3
+msgid "Propietarios"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:36
+msgid "Coeficientes x propietario"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:37
+#: View/Layouts/backendcli.ctp:50;51;52;53
+msgid "Proveedores"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:38;39;40;41;42
+#: View/Layouts/backendcli.ctp:37;38;39;40;41
+msgid "Gastos"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:39
+msgid "Rubros Gastos Generales"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:40
+msgid "Cuentas Gastos Particulares"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:43;44;45;46;47
+#: View/Layouts/backendcli.ctp:42;43;44;45;46;47
+msgid "Liquidaciones"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:44
+#: View/SaldosIniciales/index.ctp:3
+msgid "Saldos Iniciales"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:45
+#: View/Layouts/backendcli.ctp:46
+#: View/SaldosCierres/index.ctp:3
+msgid "Saldos Cierres"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:47
+msgid "Tipos de liquidaciones"
+msgstr ""
+
+#: View/Layouts/backendadmin.ctp:48
+#: View/Layouts/backendcli.ctp:54
+msgid "Salir"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:31
+msgid "Mis datos"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:33
+msgid "2 - Consorcios"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:34
+msgid "3 - Propietarios"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:35
+msgid "4 - Coeficientes"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:36
+msgid "5 - Coeficientes x propietario"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:38
+msgid "8 - Rubros Gastos Generales"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:39
+msgid "9 - Cuentas Gastos Particulares"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:40
+msgid "12 - Gastos Generales"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:41
+msgid "13 - Gastos Particulares"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:43
+msgid "1 - Tipos de liquidaciones"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:44
+msgid "7 - Saldos Iniciales"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:45
+msgid "11 - Liquidaciones"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:49
+msgid "Dep贸sitos"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:52
+msgid "Facturas"
+msgstr ""
+
+#: View/Layouts/backendcli.ctp:53
+msgid "Pagos"
+msgstr ""
+
+#: View/Layouts/footer.ctp:6
+msgid "P&aacute;gina generada en "
+msgstr ""
+
+#: View/Liquidations/add.ctp:4
+#: View/Liquidations/add2.ctp:4
+msgid "Agregar Liquidation"
+msgstr ""
+
+#: View/Liquidations/add.ctp:7
+#: View/Liquidations/add2.ctp:7
+msgid "Tipo de liquidaci贸n"
+msgstr ""
+
+#: View/Liquidations/add2.ctp:8
+msgid "Liquidaci贸n anterior"
+msgstr ""
+
+#: View/Liquidations/add2.ctp:10
+#: View/Liquidations/edit.ctp:10
+msgid "periodo"
+msgstr ""
+
+#: View/Liquidations/add2.ctp:11
+#: View/Liquidations/edit.ctp:11
+msgid "vencimiento"
+msgstr ""
+
+#: View/Liquidations/add2.ctp:12
+#: View/Liquidations/edit.ctp:12
+msgid "limite"
+msgstr ""
+
+#: View/Liquidations/edit.ctp:4
+msgid "Editar Liquidation"
+msgstr ""
+
+#: View/Liquidations/edit.ctp:8
+#: View/SaldosIniciales/add.ctp:6
+#: View/SaldosIniciales/edit.ctp:7
+msgid "liquidations_type_id"
+msgstr ""
+
+#: View/Liquidations/index.ctp:3
+#: View/Liquidations/panel_index.ctp:3
+#: View/Liquidations/reporte.ctp:2
+msgid "Liquidations"
+msgstr ""
+
+#: View/Liquidations/index.ctp:15
+#: View/Liquidations/panel_index.ctp:15
+msgid "Cerrada"
+msgstr ""
+
+#: View/Liquidations/index.ctp:65
+#: View/Liquidations/panel_index.ctp:65
+msgid "Abrir / Cerrar liquidaci贸n"
+msgstr ""
+
+#: View/Liquidations/index.ctp:70
+#: View/Liquidations/panel_index.ctp:70
+#: View/Liquidations/prorrateo.ctp:4
+msgid "Prorratear liquidacion"
+msgstr ""
+
+#: View/Liquidations/index.ctp:70
+#: View/Liquidations/panel_index.ctp:70
+msgid "Desea prorratear la liquidacion # %s?"
+msgstr ""
+
+#: View/Liquidations/view.ctp:14
+#: View/LiquidationsTypes/view.ctp:2
+#: View/SaldosIniciales/view.ctp:9
+msgid "Liquidations Type"
+msgstr ""
+
+#: View/Liquidations/view.ctp:59
+msgid "Edit Liquidation"
+msgstr ""
+
+#: View/Liquidations/view.ctp:60
+msgid "Delete Liquidation"
+msgstr ""
+
+#: View/Liquidations/view.ctp:71
+#: View/Propietarios/view.ctp:107
+#: View/SaldosCierres/view.ctp:51
+msgid "List Saldos Cierres"
+msgstr ""
+
+#: View/Liquidations/view.ctp:72;206
+#: View/Propietarios/view.ctp:108;197
+#: View/SaldosCierres/view.ctp:52
+msgid "New Saldos Cierre"
+msgstr ""
+
+#: View/Liquidations/view.ctp:172
+#: View/Propietarios/view.ctp:163
+msgid "Related Saldos Cierres"
+msgstr ""
+
+#: View/Liquidations/view.ctp:179
+#: View/Propietarios/view.ctp:170
+#: View/SaldosCierres/index.ctp:11
+#: View/SaldosCierres/view.ctp:19
+#: View/SaldosIniciales/index.ctp:11
+#: View/SaldosIniciales/view.ctp:19
+msgid "Capital"
+msgstr ""
+
+#: View/Liquidations/view.ctp:180
+#: View/Propietarios/view.ctp:171
+#: View/SaldosCierres/index.ctp:12
+#: View/SaldosCierres/view.ctp:24
+#: View/SaldosIniciales/index.ctp:12
+#: View/SaldosIniciales/view.ctp:24
+msgid "Interes"
+msgstr ""
+
+#: View/LiquidationsTypes/add.ctp:4
+msgid "Agregar Liquidations Type"
+msgstr ""
+
+#: View/LiquidationsTypes/add.ctp:8
+#: View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
+#: View/Users/panel_add.ctp:4
+#: View/Users/panel_edit.ctp:4
+msgid "enabled"
+msgstr ""
+
+#: View/LiquidationsTypes/edit.ctp:4
+msgid "Editar Liquidations Type"
+msgstr ""
+
+#: View/LiquidationsTypes/edit.ctp:9
+msgid "Hablitado"
+msgstr ""
+
+#: View/LiquidationsTypes/index.ctp:3
+msgid "Liquidations Types"
+msgstr ""
+
+#: View/LiquidationsTypes/view.ctp:39
+msgid "Edit Liquidations Type"
+msgstr ""
+
+#: View/LiquidationsTypes/view.ctp:40
+msgid "Delete Liquidations Type"
+msgstr ""
+
+#: View/Pagoproveedors/add.ctp:4
+msgid "Agregar Pagoproveedor"
+msgstr ""
+
+#: View/Pagoproveedors/add.ctp:6
+#: View/Pagoproveedors/edit.ctp:7
+msgid "proveedor_id"
+msgstr ""
+
+#: View/Pagoproveedors/add.ctp:7
+#: View/Pagoproveedors/edit.ctp:8
+msgid "facturaproveedor_id"
+msgstr ""
+
+#: View/Pagoproveedors/edit.ctp:4
+msgid "Editar Pagoproveedor"
+msgstr ""
+
+#: View/Pagoproveedors/index.ctp:3
+msgid "Pagoproveedors"
+msgstr ""
+
+#: View/Pagoproveedors/view.ctp:2
+msgid "Pagoproveedor"
+msgstr ""
+
+#: View/Pagoproveedors/view.ctp:49
+msgid "Edit Pagoproveedor"
+msgstr ""
+
+#: View/Pagoproveedors/view.ctp:50
+msgid "Delete Pagoproveedor"
+msgstr ""
+
+#: View/Propietarios/add.ctp:4
+msgid "Agregar Propietario"
+msgstr ""
+
+#: View/Propietarios/add.ctp:11
+#: View/Propietarios/edit.ctp:12
+msgid "Direcci贸n postal"
+msgstr ""
+
+#: View/Propietarios/add.ctp:13
+#: View/Propietarios/edit.ctp:14
+msgid "Ciudad postal"
+msgstr ""
+
+#: View/Propietarios/add.ctp:16
+#: View/Propietarios/edit.ctp:17
+msgid "Superficie"
+msgstr ""
+
+#: View/Propietarios/add.ctp:17
+#: View/Propietarios/edit.ctp:18
+msgid "Pol铆gono"
+msgstr ""
+
+#: View/Propietarios/add.ctp:18
+#: View/Propietarios/edit.ctp:19
+msgid "Estado judicial"
+msgstr ""
+
+#: View/Propietarios/add.ctp:19
+#: View/Propietarios/edit.ctp:20
+msgid "Observaciones"
+msgstr ""
+
+#: View/Propietarios/add.ctp:20
+#: View/Propietarios/edit.ctp:21
+msgid "Imprime resumen cuenta"
+msgstr ""
+
+#: View/Propietarios/add.ctp:22
+#: View/Propietarios/edit.ctp:23
+msgid "Except煤a inter茅s"
+msgstr ""
+
+#: View/Propietarios/edit.ctp:4
+msgid "Editar Propietario"
+msgstr ""
+
+#: View/Propietarios/view.ctp:99
+msgid "Edit Propietario"
+msgstr ""
+
+#: View/Propietarios/view.ctp:100
+msgid "Delete Propietario"
+msgstr ""
+
+#: View/Proveedors/add.ctp:4
+msgid "Agregar Proveedor"
+msgstr ""
+
+#: View/Proveedors/edit.ctp:4
+msgid "Editar Proveedor"
+msgstr ""
+
+#: View/Proveedors/index.ctp:3
+msgid "Proveedors"
+msgstr ""
+
+#: View/Proveedors/view.ctp:54
+msgid "Edit Proveedor"
+msgstr ""
+
+#: View/Proveedors/view.ctp:55
+msgid "Delete Proveedor"
+msgstr ""
+
+#: View/Resumenes/add.ctp:4
+msgid "Agregar Resumene"
+msgstr ""
+
+#: View/Resumenes/add.ctp:7
+#: View/Resumenes/edit.ctp:8
+msgid "data"
+msgstr ""
+
+#: View/Resumenes/edit.ctp:4
+msgid "Editar Resumene"
+msgstr ""
+
+#: View/Resumenes/index.ctp:3
+msgid "Resumenes"
+msgstr ""
+
+#: View/Resumenes/index.ctp:10
+#: View/Resumenes/view.ctp:14
+msgid "Data"
+msgstr ""
+
+#: View/Resumenes/view.ctp:2
+msgid "Resumene"
+msgstr ""
+
+#: View/Resumenes/view.ctp:34
+msgid "Edit Resumene"
+msgstr ""
+
+#: View/Resumenes/view.ctp:35
+msgid "Delete Resumene"
+msgstr ""
+
+#: View/Resumenes/view.ctp:36
+msgid "List Resumenes"
+msgstr ""
+
+#: View/Resumenes/view.ctp:37
+msgid "New Resumene"
+msgstr ""
+
+#: View/Rubros/add.ctp:4
+msgid "Agregar Rubro"
+msgstr ""
+
+#: View/Rubros/edit.ctp:4
+msgid "Editar Rubro"
+msgstr ""
+
+#: View/Rubros/index.ctp:3
+msgid "Rubros"
+msgstr ""
+
+#: View/Rubros/view.ctp:34
+msgid "Edit Rubro"
+msgstr ""
+
+#: View/Rubros/view.ctp:35
+msgid "Delete Rubro"
+msgstr ""
+
+#: View/SaldosCierres/add.ctp:4
+msgid "Agregar Saldos Cierre"
+msgstr ""
+
+#: View/SaldosCierres/add.ctp:8
+#: View/SaldosCierres/edit.ctp:9
+#: View/SaldosIniciales/add.ctp:8
+#: View/SaldosIniciales/edit.ctp:9
+msgid "capital"
+msgstr ""
+
+#: View/SaldosCierres/add.ctp:9
+#: View/SaldosCierres/edit.ctp:10
+#: View/SaldosIniciales/add.ctp:9
+#: View/SaldosIniciales/edit.ctp:10
+msgid "interes"
+msgstr ""
+
+#: View/SaldosCierres/add.ctp:10
+#: View/SaldosCierres/edit.ctp:11
+msgid "redondeo"
+msgstr ""
+
+#: View/SaldosCierres/edit.ctp:4
+msgid "Editar Saldos Cierre"
+msgstr ""
+
+#: View/SaldosCierres/index.ctp:13
+#: View/SaldosCierres/view.ctp:29
+msgid "Redondeo"
+msgstr ""
+
+#: View/SaldosCierres/view.ctp:2
+msgid "Saldos Cierre"
+msgstr ""
+
+#: View/SaldosCierres/view.ctp:49
+msgid "Edit Saldos Cierre"
+msgstr ""
+
+#: View/SaldosCierres/view.ctp:50
+msgid "Delete Saldos Cierre"
+msgstr ""
+
+#: View/SaldosIniciales/add.ctp:4
+msgid "Agregar Saldos Iniciale"
+msgstr ""
+
+#: View/SaldosIniciales/edit.ctp:4
+msgid "Editar Saldos Iniciale"
+msgstr ""
+
+#: View/SaldosIniciales/view.ctp:2
+msgid "Saldos Iniciale"
+msgstr ""
+
+#: View/SaldosIniciales/view.ctp:44
+msgid "Edit Saldos Iniciale"
+msgstr ""
+
+#: View/SaldosIniciales/view.ctp:45
+msgid "Delete Saldos Iniciale"
+msgstr ""
+
+#: View/SaldosIniciales/view.ctp:46
+msgid "List Saldos Iniciales"
+msgstr ""
+
+#: View/SaldosIniciales/view.ctp:47
+msgid "New Saldos Iniciale"
+msgstr ""
+
+#: View/Users/add.ctp:4
+#: View/Users/panel_add.ctp:3
+#: View/Users/panel_edit.ctp:3
+msgid "Agregar User"
+msgstr ""
+
+#: View/Users/add.ctp:8
+#: View/Users/edit.ctp:9
+#: View/Users/panel_add.ctp:4
+#: View/Users/panel_edit.ctp:4
+msgid "username"
+msgstr ""
+
+#: View/Users/add.ctp:9
+#: View/Users/edit.ctp:10
+#: View/Users/panel_add.ctp:4
+#: View/Users/panel_edit.ctp:4
+msgid "password"
+msgstr ""
+
+#: View/Users/add.ctp:10
+#: View/Users/edit.ctp:11
+#: View/Users/panel_add.ctp:4
+#: View/Users/panel_edit.ctp:4
+msgid "is_admin"
+msgstr ""
+
+#: View/Users/edit.ctp:4
+msgid "Editar User"
+msgstr ""
+
+#: View/Users/index.ctp:3
+#: View/Users/panel_index.ctp:3
+msgid "Users"
+msgstr ""
+
+#: View/Users/login.ctp:6
+#: View/Users/panel_login.ctp:6
+msgid "Por favor, ingrese su nombre de usuario y contrase馻"
+msgstr ""
+
+#: View/Users/login.ctp:8
+#: View/Users/panel_login.ctp:8
+msgid "Usuario"
+msgstr ""
+
+#: View/Users/login.ctp:9
+#: View/Users/panel_login.ctp:9
+msgid "Contrase馻"
+msgstr ""
+
+#: View/Users/login.ctp:10
+#: View/Users/panel_login.ctp:10
+msgid "Ingresar"
+msgstr ""
+
+#: View/Users/panel_index.ctp:13
+msgid "Admin?"
+msgstr ""
+
+#: View/Users/panel_view.ctp:2
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/panel_view.ctp:54
+#: View/Users/view.ctp:54
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/panel_view.ctp:55
+#: View/Users/view.ctp:55
+msgid "Delete User"
+msgstr ""
+
+#: Model/Banco.php:validation for field code;validation for field name;validation for field address;validation for field city
+#: Model/Client.php:validation for field name;validation for field razon_social;validation for field cuit;validation for field address;validation for field city;validation for field telephone
+#: Model/Coeficiente.php:validation for field name
+#: Model/Colaimpresione.php:validation for field descripcion;validation for field reporte
+#: Model/Consorcio.php:validation for field name;validation for field cuit;validation for field address;validation for field city;validation for field telephone
+#: Model/Cuentasgastosparticulare.php:validation for field name
+#: Model/Facturaproveedor.php:validation for field description
+#: Model/GastosGenerale.php:validation for field description
+#: Model/Liquidation.php:validation for field name;validation for field periodo;validation for field description
+#: Model/LiquidationsType.php:validation for field name
+#: Model/Pagoproveedor.php:validation for field description
+#: Model/Propietario.php:validation for field name;validation for field address;validation for field postal_address;validation for field city;validation for field postal_city;validation for field unidad
+#: Model/Proveedor.php:validation for field name;validation for field address;validation for field cuit;validation for field city;validation for field telephone
+#: Model/Resumene.php:validation for field data
+#: Model/Rubro.php:validation for field name
+#: Model/User.php:validation for field name;validation for field username;validation for field password
+msgid "notEmpty"
+msgstr ""
+
+
+#: Model/Client.php:validation for field code
+#: Model/Cobranza.php:validation for field liquidation_id;validation for field propietario_id
+#: Model/Coeficiente.php:validation for field consorcio_id
+#: Model/CoeficientesPropietario.php:validation for field coeficiente_id;validation for field propietario_id
+#: Model/Colaimpresione.php:validation for field client_id;validation for field copias
+#: Model/Consorcio.php:validation for field client_id;validation for field code
+#: Model/Cuentasgastosparticulare.php:validation for field consorcio_id
+#: Model/Facturaproveedor.php:validation for field proveedor_id
+#: Model/GastosGenerale.php:validation for field liquidation_id;validation for field rubro_id;validation for field coeficiente_id
+#: Model/GastosParticulare.php:validation for field liquidation_id;validation for field cuentasgastosparticulare_id
+#: Model/Liquidation.php:validation for field consorcio_id;validation for field liquidations_type_id
+#: Model/LiquidationsType.php:validation for field client_id
+#: Model/Pagoproveedor.php:validation for field proveedor_id;validation for field facturaproveedor_id
+#: Model/Propietario.php:validation for field consorcio_id;validation for field imprime_resumen_cuenta;validation for field sistema_online;validation for field enabled
+#: Model/Proveedor.php:validation for field client_id
+#: Model/Resumene.php:validation for field liquidation_id
+#: Model/Rubro.php:validation for field consorcio_id
+#: Model/SaldosIniciale.php:validation for field liquidations_type_id
+#: Model/User.php:validation for field client_id
+msgid "numeric"
+msgstr ""
+
+#: Model/Client.php:validation for field email
+msgid "email"
+msgstr ""
+
+#: Model/Coeficiente.php:validation for field enabled
+#: Model/Colaimpresione.php:validation for field bloqueado;validation for field impreso
+#: Model/LiquidationsType.php:validation for field enabled
+#: Model/User.php:validation for field is_admin;validation for field enabled
+msgid "boolean"
+msgstr ""
+
+#: Model/GastosGenerale.php:validation for field amount
+#: Model/SaldosIniciale.php:validation for field capital;validation for field interes
+msgid "Debe ser un numero decimal"
+msgstr ""
+
+#: Model/GastosParticulare.php:validation for field date;validation for field description
+msgid "Debe completar el campo"
+msgstr ""
+
+#: Model/GastosParticulare.php:validation for field amount
+msgid "El campo debe ser decimal"
+msgstr ""
+
+#: Model/Propietario.php:validation for field code
+msgid "El n鷐ero debe ser mayor a cero"
+msgstr ""
+
+#: Model/Proveedor.php:validation for field email
+msgid "El formato del email es incorrecto"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:52
+msgid "-> Testing :url"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:77
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:78
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:82
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:86
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:90
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:94
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:143
+msgid "DebugKit Benchmark Shell"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:145
+msgid "\tAllows you to obtain some rough benchmarking statistics \n\tabout a fully qualified URL."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:147
+msgid "\tUse:"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:148
+msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:150
+msgid "\tParams:"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:151
+msgid "\t\t-n Number of iterations to perform. Defaults to 10. \n\t\t   Must be an integer."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:152
+msgid "\t\t-t Maximum total time for all iterations, in seconds. \n\t\t   Defaults to 100. Must be an integer."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:154
+msgid "\tIf a single iteration takes more than the \n\ttimeout specified, only one request will be made."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:156
+msgid "\tExample Use:"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:157
+msgid "\t\tcake benchmark -n 10 -t 100 http://localhost/testsite"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:159
+msgid "\tNote that this benchmark does not include browser render time"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:154
+msgid "Component initialization"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:274
+msgid "Controller action"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:277
+msgid "Controller action start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:293
+msgid "Processing toolbar state"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:315
+msgid "Processing toolbar data"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:350
+msgid "Controller render start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:430
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/DebugTimer.php:130
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:300
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:321
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:400
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/debug_toolbar.ctp:25
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:1
+msgid "App Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:17
+msgid "CakePHP Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:33
+msgid "PHP Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:21
+msgid "Request History"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:23
+msgid "No previous requests logged."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:25
+msgid "previous requests available"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:27
+msgid "Restore to current request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/include_panel.ctp:21
+msgid "Included Files"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:21
+msgid "Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:29
+msgid "Time"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:29
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:44;68
+msgid "Message"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:40
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:21
+msgid "Request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:29
+msgid "No post data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:38
+msgid "No querystring data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:51
+msgid "Current Route"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/session_panel.ctp:21
+msgid "Session"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:25
+msgid "Sql Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:39
+msgid "Total Time: %s ms <br />Total Queries: %s queries"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:48
+msgid "Query Explain:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:51
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sqllog_panel.ctp:56
+msgid "No active database connections"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:37
+msgid "Memory"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:40
+msgid "Peak Memory Use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:44
+msgid "Memory use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:57
+msgid "Timers"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:59
+msgid "%s (ms)"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:60
+msgid "Total Request Time:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:69
+msgid "Time in ms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:70
+msgid "Graph"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/variables_panel.ctp:21
+msgid "View Variables"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:44
+msgid "Rendering View"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:59
+msgid "Rendering %s"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:85
+msgid "View render complete"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/HtmlToolbarHelper.php:191
+msgid "Explain"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/SimpleGraphHelper.php:80
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/TidyHelper.php:108
+msgid "No markup errors found"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/ToolbarHelper.php:187
+msgid "maybe slow"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/WhitespaceShell.php:89
+msgid "Absolute path or relative to APP."
+msgstr ""
+
+#: Plugin/Search/Controller/Component/PrgComponent.php:331
+msgid "Please correct the errors below."
+msgstr ""
+
+#: View/Errors/error400.ctp:12
+#: View/Errors/error500.ctp:12
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error400.ctp:14
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:13
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Layouts/error.ctp:10
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: webroot/test.php:84
+msgid "Debug setting does not allow access to this URL."
+msgstr ""
+
+msgid "January"
+msgstr "Enero"
+
+msgid "February"
+msgstr "Febrero"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "Dezember"
+
+msgid "in"
+msgstr "en"

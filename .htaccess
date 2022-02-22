@@ -1,0 +1,63 @@
+<IfModule mod_headers.c>
+	# https://developer.mozilla.org/es/docs/Web/HTTP/Headers/X-XSS-Protection
+	# proteccion contra XSS (obsoleta para navegadores viejos por CSP, pero permito script-src 'unsafe-inline' (que no deberia), pero sino no anda nada del sistema. Todos los <script> deberian estar en un archivo js.
+	# mode block no muestra la pagina directamente. Si fuera solo 1, el navegador sanitiza la web y la muestra
+	Header set X-XSS-Protection "1; mode=block"
+	
+	# https://developer.mozilla.org/es/docs/Web/HTTP/Headers/X-Content-Type-Options
+	# los tipos MIME anunciados en los encabezados Content-Type no se deben cambiar ni seguir. Esto permite desactivar el MIME type sniffing
+	Header set X-Content-Type-Options nosniff
+	
+	# https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Strict-Transport-Security
+	# HSTS. Sólo se debe comunicar con HTTPS en lugar de usar HTTP
+	Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+	
+	# https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Referrer-Policy
+	Header set Referrer-Policy strict-origin-when-cross-origin
+	
+	# quito este header, si existe (localmente está). Ver si en ngnix funciona correctamente
+	Header unset X-Powered-By
+	
+	# https://csp-evaluator.withgoogle.com/
+	# por defecto, si la web se accede por https, todos los src deben ser https, por eso no agrego https:// a los src
+	# default-src 'none'
+	# block-all-mixed-content; ------> evita q se cargue cualquier cosa por http (si la web fue accedida x https). Como Strict-Transport-Security, esta bien esto
+	# connect-src data: 'self' www.google-analytics.com stats.g.doubleclick.net ------> para que funcione la compresion de imagenes (ej: adjuntos/add), 'self' para q funcione el jQuery.dialog(). https://www.google-analytics.com para analytics en el panel propietario
+	# frame-src www.google.com ------> (para el recaptcha del login)
+	# style-src 'self' 'unsafe-inline' ------> Self para q tome los css de ceonline y unsafe-inline para mejorar a futuro. Todos los css deberian estar en archivos css. (los css en, por ejemplo <img style="width:100px">)
+	# script-src 'self' data: 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com www.google.com www.gstatic.com; ------> Permito js de ceonline, unsafe-inline por los js metidos por todos lados en las vistas y unsafe-eval por distribuciones (sino no calcula). www.googletagmanager.com www.google-analytics.com para analytics y www.google.com www.gstatic.com para el recaptcha
+	# img-src 'self' data www.google-analytics.com www.googletagmanager.com: ------> Las imagenes salen del mismo servidor, tambien hay imagenes en base64 (data:) y gg analytics
+	# frame-ancestors 'self' ------> Permito un iframe solo de ceonline
+	# The frame-ancestors directive obsoletes the X-Frame-Options header. If a resource has both policies, the frame-ancestors policy SHOULD be enforced and the X-Frame-Options policy SHOULD be ignored.
+	# font-src 'self';media-src 'self';. Las fuentes salen de /webroot/fonts y media, por ahora solamente los ogg que se reproducen cuando entra una consulta (el ruidito!)
+	# form-action 'self' ------> las acciones (get,post,etc) de los forms van a ceonline.com.ar solamente (no hago post a otros lados)
+	# object-src 'none';manifest-src 'none';worker-src 'none'. No utilizo, asi q los deshabilito x defecto
+	# report-uri https://csp.ceonline.com.ar/? ------> donde se reportan las violaciones de CSP (tabla csp del sistema)
+	
+	Header set Content-Security-Policy "default-src 'none';block-all-mixed-content;connect-src data: 'self' www.google-analytics.com stats.g.doubleclick.net;frame-src www.google.com;style-src 'self' 'unsafe-inline';script-src 'self' data: 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com www.google.com www.gstatic.com;img-src 'self' data: www.google-analytics.com www.googletagmanager.com;frame-ancestors 'self';font-src 'self' data:;media-src 'self';form-action 'self';object-src 'none';manifest-src 'none';worker-src 'none';report-uri https://csp.ceonline.com.ar/?;"
+</IfModule>
+
+# no muestro el detalle de q servidor es Powered-by
+ServerSignature Off
+
+# deshabilito directory listing
+Options All -Indexes
+
+# un año para las fotos
+<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+# un mes para js y css
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+# específico de CakePHP
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	RewriteBase /sistema/
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
+Header set Author "Computer Engineer Esteban Cano (estebancano.com) for CEONLINE.com.ar"
